@@ -6,4 +6,4 @@ What you'll find in here is a...
 - CSS
 - JS
 - Associated images and other files
-For Spring 2019 Web Design 2
+- For Spring 2019 Web Design 2
