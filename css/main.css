@@ -102,6 +102,8 @@ textarea {
      background-color: #091028;
      font-family: 'Roboto', sans-serif;
     }
+
+/*Header For Main Pages*/
     header{
     z-index: 1;
     }
@@ -170,9 +172,10 @@ textarea {
      background-color: #E83D4D;
     }
 
+/*Header For Info Sub Pages*/
  .info_nav {
    width: 100%;
-   height: 89px;
+   height: 70px;
    background-color: #0D1738;
    margin-top: -67px;
    margin-bottom:0px;
@@ -182,10 +185,10 @@ textarea {
 
     .info_nav_text ul {
      list-style-type: none;
-     margin-top: 0;
-     margin-left: 100px;
-     margin-right: 100px;
-     margin-bottom: auto;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
      padding: 0;
     }
 
@@ -225,22 +228,150 @@ textarea {
 /*Hero Section*/
 .hero_section{
   width: 100%;
-  height: 810px;
+  height: 100%;
 }
 
-video{
-  margin-top:-60px;
-  z-index: -1;
-}
-
-#main_video {
+/*.skip_down{
   position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  margin-top:500px;
+  z-index: 2;
+  color: white;
+  background-color: blue;
+}
+*/
+
+/*Video For Hero Section*/
+  video{
+
+  }
+
+  video#main_video{
+
+  }
+
+  #main_video {
+    position: relative;
+    margin-top:-130px;
+    margin-bottom:-50px;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+/*main section*/
+section.main_content {
+  width: 100%;
+  height: auto;
 }
 
+.learn_more{
+  width:100%;
+  height:auto;
+  color: white;
+  background-color: #0D1738;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+}
+
+  .learn_more h1{
+    font-size: 72px;
+  }
+
+  .learn_more h2{
+    font-size: 36px;
+    line-height: normal;
+  }
+
+  .learn_more p{
+    font-size: 18px;
+    line-height: normal;
+  }
+
+    .learn_more button{
+      margin: 40px auto 40px auto;
+      width: 344px;
+      height: 76px;
+      border-radius: 25px;
+      border-color: #E83D4D;
+      background: #E83D4D;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: normal;
+      color: white;
+    }
+
+.conference_info {
+  width:100%;
+  height:auto;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+}
+  .passes{
+    display:flex;
+  }
+    .pass_1{
+
+    }
+
+    .pass_2{
+
+    }
+
+    .pass_3{
+
+    }
+
+      .passes button{
+        margin: 40px auto 40px auto;
+        width: 344px;
+        height: 76px;
+        border-radius: 25px;
+        border-color: #E83D4D;
+        background: #E83D4D;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: normal;
+        color: white;
+      }
+
+    .speakers{
+      display:flex;
+
+    }
+      .speaker_1{
+
+      }
+
+      .speaker_2{
+
+      }
+
+      .speaker_3{
+
+      }
+        .speakers button{
+          margin: 40px auto 40px auto;
+          width: 344px;
+          height: 76px;
+          border-radius: 25px;
+          border-color: #E83D4D;
+          background: #E83D4D;
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 36px;
+          line-height: normal;
+          color: white;
+        }
 /* Footer*/
 footer{
   background-color: black;
