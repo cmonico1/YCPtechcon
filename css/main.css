@@ -105,7 +105,6 @@ textarea {
 
 /*Header For Main Pages*/
     header{
-    z-index: 1;
     }
 
     .main_nav_text{
@@ -159,10 +158,7 @@ textarea {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: -60px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 0;
+      margin: -60px auto 0 auto;
     }
 
     .right_bar{
@@ -229,17 +225,10 @@ textarea {
 .hero_section{
   width: 100%;
   height: 100%;
+  margin: 0 auto -65px auto;
 }
 
 /*Video For Hero Section*/
-video{
-
-}
-
-video#main_video{
-
-}
-
 #main_video {
   position: relative;
   margin-top:-130px;
@@ -251,7 +240,7 @@ video#main_video{
   min-height: 100%;
 }
 
-/*main section*/
+/*main content index.html*/
 section.main_content {
   width: 100%;
   height: auto;
@@ -267,7 +256,6 @@ section.main_content {
   width:75%;
   height:auto;
   color: white;
-  background-color: #0D1738;
   margin: 0 auto;
   text-align: center;
   font-weight: 400;
@@ -392,6 +380,27 @@ section.main_content {
       margin: 0 auto 40px auto;
     }
 
+/*Main Content Speakers*/
+  .speakers_main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .speakers_flex{
+    margin: 29px;
+
+  }
+
+  .speakers_flex img{
+    width: 247px;
+    height: 247px;
+    border-radius: 50%;
+
+  }
 
 /* Footer*/
 footer{
