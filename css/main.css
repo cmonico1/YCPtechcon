@@ -394,12 +394,67 @@ section.main_content {
     margin: 29px;
 
   }
+  
+  #speakers_flex_1,
+  #speakers_flex_2,
+  #speakers_flex_3,
+  #speakers_flex_4,
+  #speakers_flex_5,
+  #speakers_flex_6,
+  #speakers_flex_7,
+  #speakers_flex_8,
+  #speakers_flex_9,
+  #speakers_flex_10,
+  #speakers_flex_11,
+  #speakers_flex_12,
+  #speakers_flex_13,
+  #speakers_flex_14,
+  #speakers_flex_15,
+  #speakers_flex_16,
+  #speakers_flex_17,
+  #speakers_flex_18,
+  #speakers_flex_19,
+  #speakers_flex_20,
+  #speakers_flex_21,
+  #speakers_flex_22,{
 
-  .speakers_flex img{
+  }
+
+  .speakers_flex_img{
     width: 247px;
     height: 247px;
     border-radius: 50%;
 
+  }
+
+  /*Modal*/
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+  }
+
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
   }
 
 /* Footer*/
