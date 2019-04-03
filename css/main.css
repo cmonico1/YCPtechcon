@@ -394,67 +394,84 @@ section.main_content {
     margin: 29px;
 
   }
-  
-  #speakers_flex_1,
-  #speakers_flex_2,
-  #speakers_flex_3,
-  #speakers_flex_4,
-  #speakers_flex_5,
-  #speakers_flex_6,
-  #speakers_flex_7,
-  #speakers_flex_8,
-  #speakers_flex_9,
-  #speakers_flex_10,
-  #speakers_flex_11,
-  #speakers_flex_12,
-  #speakers_flex_13,
-  #speakers_flex_14,
-  #speakers_flex_15,
-  #speakers_flex_16,
-  #speakers_flex_17,
-  #speakers_flex_18,
-  #speakers_flex_19,
-  #speakers_flex_20,
-  #speakers_flex_21,
-  #speakers_flex_22,{
 
+  .speakers_flex_hover{
+  }
+
+  .speakers_flex_hover p{
+    font-size: 64px;
+    font-weight: 600;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 0;
   }
 
   .speakers_flex_img{
     width: 247px;
     height: 247px;
     border-radius: 50%;
-
   }
 
   /*Modal*/
   /* The Modal (background) */
-  .modal {
+  .speakers_modal {
     display: none; /* Hidden by default */
   }
 
   /* Modal Content */
-  .modal-content {
-    background-color: #fefefe;
+  .speakers_modal_content{
+    background-color: #0D1738;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
     width: 80%;
+    color: #fff;
+  }
+
+  #speakers_modal_content_1,
+  #speakers_modal_content_2,
+  #speakers_modal_content_3,
+  #speakers_modal_content_4,
+  #speakers_modal_content_5,
+  #speakers_modal_content_6,
+  #speakers_modal_content_7,
+  #speakers_modal_content_8,
+  #speakers_modal_content_9,
+  #speakers_modal_content_10,
+  #speakers_modal_content_11,
+  #speakers_modal_content_12,
+  #speakers_modal_content_13,
+  #speakers_modal_content_14,
+  #speakers_modal_content_15,
+  #speakers_modal_content_16,
+  #speakers_modal_content_17,
+  #speakers_modal_content_18,
+  #speakers_modal_content_19,
+  #speakers_modal_content_20,
+  #speakers_modal_content_21,
+  #speakers_modal_content_22 {
   }
 
   /* The Close Button */
-  .close {
+  .close_modal {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
+    margin-top: -10px;
   }
 
-  .close:hover,
-  .close:focus {
+  .close_modal:hover,
+  .close_modal:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  .speakers_modal_img{
+    width: 247px;
+    height: 247px;
+    border-radius: 50%;
   }
 
 /* Footer*/
