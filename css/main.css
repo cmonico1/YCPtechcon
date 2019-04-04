@@ -380,7 +380,125 @@ section.main_content {
       margin: 0 auto 40px auto;
     }
 
-/*Main Content Speakers*/
+/* Main Content Register */
+.registration_passes{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+
+}
+.registration_passes_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto 40px auto;
+  width: 345px;
+  height: 434px;
+  background-color: #0D1738;
+  border-radius: 50px;
+}
+
+.registration_passes_header {
+  position: relative;
+  top: -80px;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  font-size: 36px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+.registration_passes_button {
+  position: relative;
+  bottom: -80px;
+  width: 199px;
+  height: 76px;
+  margin: 0 auto 0 auto;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #E83D4D;
+  border-radius: 20px;
+  border-color: #E83D4D;
+}
+
+  .registration_forms{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+    .registration_forms h1{
+      color:white;
+    }
+
+  .checkout_window{
+    width: 62%;
+    height: 262px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 50px;
+  }
+
+  .shipping_address{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 62%;
+    height: auto;
+    margin: 0 auto 12px auto;
+    background-color: blue;
+  }
+
+    .first_name_form{
+      width: 49%;
+      height: 40px;
+      margin: 0 auto 12px auto;
+      border-radius: 10px;
+      border: none;
+    }
+
+    .last_name_form{
+      width: 49%;
+      height: 40px;
+      margin: 0 auto 12px auto;
+      border-radius: 10px;
+      border: none;
+    }
+    .address_form{
+      width: 100%;
+      height: 40px;
+      margin: 0 auto 12px auto;
+      border-radius: 10px;
+      border: none;
+    }
+    .city_form{
+      width: 50%;
+      height: 40px;
+      margin: 0 auto 12px auto;
+      border-radius: 10px;
+      border: none;
+    }
+    .state_form{
+      width: 24%;
+      height: 40px;
+      margin: 0 auto;
+      border-radius: 10px;
+      border: none;
+    }
+    .zipcode_form{
+      width: 24%;
+      height: 40px;
+      margin: 0 auto;
+      border-radius: 10px;
+      border: none;
+    }
+/* Main Content Speakers */
   .speakers_main{
     display: flex;
     flex-flow: row wrap;
@@ -398,20 +516,20 @@ section.main_content {
   .speakers_flex_hover{
   }
 
-  .speakers_flex_hover p{
-    font-size: 64px;
-    font-weight: 600;
-    color: white;
-    margin: 0 auto;
-    text-align: center;
-    padding: 25px 0;
-  }
+    .speakers_flex_hover p{
+      font-size: 64px;
+      font-weight: 600;
+      color: white;
+      margin: 0 auto;
+      text-align: center;
+      padding: 25px 0;
+    }
 
-  .speakers_flex_img{
-    width: 247px;
-    height: 247px;
-    border-radius: 50%;
-  }
+    .speakers_flex_img{
+      width: 247px;
+      height: 247px;
+      border-radius: 50%;
+    }
 
   /*Modal*/
   /* The Modal (background) */
@@ -427,6 +545,71 @@ section.main_content {
     width: 80%;
     color: #fff;
   }
+
+    .speakers_modal_content img{
+      margin-top: 50px;
+    }
+
+    .speakers_modal_content h1{
+      font-family: Roboto;
+      font-style: normal;
+      font-size: 64px;
+      font-weight: 600;
+      line-height: 0px;
+      margin: 100px 0 0 0;
+    }
+
+    .speakers_modal_content h2{
+      font-family: Roboto;
+      font-style: normal;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 2;
+    }
+
+    .speakers_modal_content h3{
+      font-family: Roboto;
+      font-style: 300;
+      font-size: 36px;
+      font-weight: 100;
+      line-height: 0;
+    }
+
+    .speakers_modal_content p{
+      font-family: Roboto;
+      font-style: normal;
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .speakers_modal_content button{
+      width: 279px;
+      height: 62px;
+      background-color: #e83d4d;
+      border: none;
+      border-radius: 25px;
+      font-size: 29px;
+      font-weight: 400;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 60px auto 60px auto;
+      text-decoration: !important none;
+    }
+
+    .speakers_modal_content button:hover{
+      background-color: #ffffff;
+      color: #e83d4d;
+      text-decoration: !important none;
+
+    }
+
+    .speakers_modal_content a:link{
+      text-decoration: !important none;
+    }
+
 
   #speakers_modal_content_1,
   #speakers_modal_content_2,
