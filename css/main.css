@@ -703,6 +703,56 @@ section.main_content {
     border-radius: 50%;
   }
 
+/* Schedule Page */
+.table_body{
+  width: 80%;
+  border-radius: 50px;
+  border-color: transparent;
+  background-color: #0D1738;
+  margin: 25px auto 25px auto;
+  padding: 45px;
+}
+
+table {
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: center;
+  border-collapse: collapse;
+}
+
+  th {
+    border: 2px solid #ffffff;
+    background-color: #e83d4d;
+    color: #ffffff;
+  }
+
+  td {
+    border: 2px solid #ffffff;
+    background-color: #e83d4d;
+  }
+
+  #c1{
+    background-color: !important blue;
+    border: !important none;
+  }
+
+  td h1{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  td h2{
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  td h3{
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 100;
+  }
 /* Footer*/
 footer{
   background-color: black;
