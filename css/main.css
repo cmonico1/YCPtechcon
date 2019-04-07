@@ -172,7 +172,7 @@ textarea {
  .info_nav {
    width: 100%;
    height: 70px;
-   background-color: #0D1738;
+   background-color: #2C4F63;
    margin-top: -67px;
    margin-bottom:0px;
    padding-top: 35px;
@@ -249,7 +249,7 @@ section.main_content {
 .learn_more{
   width:100%;
   height:auto;
-  background-color: #0D1738;
+  background-color: #2C4F63;
 }
 
 .learn_more_text{
@@ -315,7 +315,7 @@ section.main_content {
       margin: 40px auto 40px;
       width: 345px;
       height: 434px;
-      background-color: #0D1738;
+      background-color: #2C4F63;
       border-radius: 50px;
     }
 
@@ -396,7 +396,7 @@ section.main_content {
   margin: 40px auto 40px auto;
   width: 345px;
   height: 434px;
-  background-color: #0D1738;
+  background-color: #2C4F63;
   border-radius: 50px;
 }
 
@@ -585,7 +585,7 @@ section.main_content {
 
   /* Modal Content */
   .speakers_modal_content{
-    background-color: #0D1738;
+    background-color: #2C4F63;
     margin: auto;
     padding: 20px;
     width: 80%;
@@ -706,9 +706,7 @@ section.main_content {
 /* Schedule Page */
 .table_body{
   width: 80%;
-  border-radius: 50px;
-  border-color: transparent;
-  background-color: #0D1738;
+
   margin: 25px auto 25px auto;
   padding: 45px;
 }
@@ -722,13 +720,13 @@ table {
 
   th {
     border: 2px solid #ffffff;
-    background-color: #e83d4d;
+    background-color: #2C4F63;
     color: #ffffff;
   }
 
   td {
     border: 2px solid #ffffff;
-    background-color: #e83d4d;
+    background-color: #2C4F63;
   }
 
   #c1{
@@ -755,7 +753,7 @@ table {
   }
 /* Footer*/
 footer{
-  background-color: black;
+  background-color: #E83D4D;
   width: 100%;
   height: 282px;
   color: white;
@@ -763,7 +761,7 @@ footer{
 }
 
 .footer_flex {
-  background-color: black;
+  background-color: #E83D4D;
   width: 100%;
   height: 282px;
   color: white;
