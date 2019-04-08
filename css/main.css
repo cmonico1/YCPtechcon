@@ -642,18 +642,18 @@ section.main_content {
       justify-content: center;
       align-items: center;
       margin: 60px auto 60px auto;
-      text-decoration: !important none;
+      text-decoration: none !important;
     }
 
     .speakers_modal_content button:hover{
       background-color: #ffffff;
       color: #e83d4d;
-      text-decoration: !important none;
+      text-decoration: none !important;
 
     }
 
     .speakers_modal_content a:link{
-      text-decoration: !important none;
+      text-decoration: none !important;
     }
 
 
@@ -730,8 +730,8 @@ table {
   }
 
   #c1{
-    background-color: !important blue;
-    border: !important none;
+    background-color: blue !important;
+    border: none !important;
   }
 
   td h1{
@@ -751,6 +751,37 @@ table {
     font-size: 10px;
     font-weight: 100;
   }
+
+/* Info Page */
+.where_is_devcon{
+  margin: 50px auto 50px auto;
+  }
+.info_about_devcon{
+  width: 60%;
+  height: auto;
+  margin: 80px auto 50px auto;
+}
+
+.info_about_devcon h1{
+  color: #ffffff;
+  font-size: 72px;
+  line-height: 20px;
+}
+
+.info_about_devcon p{
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* Getting Here Page*/
+
+.getting_here_map{
+  width: 75%;
+  height: 500px;
+  margin: 50px auto 50px auto;
+
+}
+
 /* Footer*/
 footer{
   background-color: #E83D4D;
