@@ -2,19 +2,9 @@ $(document).ready(function(){
   /*Hover States*/
   /* Brad Frost */
   $("#speakers_flex_1").hover(function(){ /*On hover shows hover state, and then returns to original html/css */
-    $("#speakers_flex_hover_1").html("<p>Brad Frost</p>").css({
-      "width": "247px",
-      "height": "247px",
-      "border-radius": "50%",
-      "background-color": "#e83d4d",
-    });
+    $("#speakers_flex_hover_1").html("<p>Brad Frost</p>").css(".speakers_hover_on");
   }, function(){
-    $("#speakers_flex_hover_1").html('<img src="../img/brad_frost.jpg" class="speakers_flex_img" id="speakers_flex_img_1" alt="DevCon Logo">').css({
-      "width": "247px",
-      "height": "247px",
-      "border-radius": "50%",
-      "background-color": "transparent",
-    });
+    $("#speakers_flex_hover_1").html("<p></p>").css("display": "none");
   });
   /* Modal State */
   $("#speakers_flex_1").click(function(){
