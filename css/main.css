@@ -578,12 +578,12 @@ section.main_content {
     }
 
   /*Modal*/
-  /* The Modal (background) */
+  /* The Modal (background)*/
   .speakers_modal {
-    display: none; /* Hidden by default */
+    display: none;
   }
 
-  /* Modal Content */
+  /* Modal Content*/
   .speakers_modal_content{
     background-color: #2C4F63;
     margin: auto;
@@ -681,7 +681,7 @@ section.main_content {
   #speakers_modal_content_22 {
   }
 
-  /* The Close Button */
+  /* The Close Button*/
   .close_modal {
     color: #aaaaaa;
     float: right;
