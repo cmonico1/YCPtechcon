@@ -108,12 +108,12 @@ textarea {
   }
 
     .speakers_hover_on p{
-      font-size: 64px;
+      font-size: 45px;
       font-weight: 600;
       color: white;
       margin: 0 auto;
       text-align: center;
-      padding: 25px 0;
+      padding: 50px 0;
     }
 
     .speakers_flex_img{
