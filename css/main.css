@@ -381,7 +381,7 @@ section.main_content {
       margin: 0 auto 40px auto;
     }
 
-/* Main Content Register */
+/* Register Main Content */
 .registration_passes{
   display: flex;
   flex-direction: row;
@@ -411,6 +411,13 @@ section.main_content {
   color: white;
   text-align: center;
 }
+  #pass_3w{
+    top: -55px !important;
+  }
+
+  #pass_3w_button{
+    bottom: -55px !important;
+  }
 
 .registration_passes_button {
   position: relative;
@@ -437,17 +444,70 @@ section.main_content {
     }
 
   .checkout_window{
-    width: 100%;
-    height: 262px;
+    width: 91.5%;
+    height: auto;
     margin: 0 auto;
+    padding: 50px 50px 50px 50px;
     background-color: #ffffff;
     border-radius: 50px;
+
+  }
+
+  .checkout_window table{
+    width: 100%;
+    height: auto;
+  }
+
+  .checkout_window th{
+  /*border: solid 1px;
+    border-color: black;
+    padding: 15px;*/
+  }
+
+  .checkout_window td{
+  /*border: solid 1px;
+    border-color: black;
+    padding: 15px;*/
+  }
+
+    .checkout_table_left_column{
+      text-align: left;
+    }
+
+    .checkout_table_center_column{
+      text-align: center;
+
+    }
+
+    .checkout_table_right_column{
+      text-align: right;
+
+    }
+
+  #subtotal_math{
+    width: auto;
+    height: 20px;
+    background-color: #E6E6E6;
+    float: right;
+    text-align: center;
   }
 
   .shipping_address{
     width: 100%;
     height: auto;
     margin: 0 auto 12px auto;
+  }
+
+  .checkout_button {
+    width: 199px;
+    height: 76px;
+    color: #ffffff;
+    font-size: 30px;
+    background-color: #E83D4D;
+    border-radius: 25px;
+    border-color: transparent;
+    margin: 0 0 50px 0;
+    float: right;
   }
 
     .first_name_form{
@@ -483,7 +543,7 @@ section.main_content {
     .state_form{
       width: 24%;
       height: 40px;
-      margin: 0 2px 0 0;
+      margin: 0 0 0 10px;
       border-radius: 10px;
       border: none;
     }
@@ -513,13 +573,13 @@ section.main_content {
       margin: 0 2px 0 0;
       border-radius: 10px;
       border: none;
-      float:right;
+      float:left;
     }
 
     #card_date{
       width: 24%;
       height: 40px;
-      margin: 0 2px 0 0;
+      margin: 0 0 0 15px;
       border-radius: 10px;
       border: none;
     }
@@ -705,20 +765,20 @@ section.main_content {
   padding: 45px;
 }
 
-table {
+.table_body table {
   margin: 0 auto;
   text-align: center;
   vertical-align: center;
   border-collapse: collapse;
 }
 
-  th {
+  .table_body th {
     border: 2px solid #ffffff;
     background-color: #2C4F63;
     color: #ffffff;
   }
 
-  td {
+  .table_body td {
     border: 2px solid #ffffff;
     background-color: #2C4F63;
   }
@@ -748,8 +808,13 @@ table {
 
 /* Info Page */
 .where_is_devcon{
-  margin: 50px auto 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto 60px auto;
+
   }
+
 .info_about_devcon{
   width: 60%;
   height: auto;
@@ -769,9 +834,40 @@ table {
 
 /* Getting Here Page*/
 .getting_here_map{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 75%;
   height: 500px;
   margin: 50px auto 50px auto;
+}
+
+/* Legal */
+
+.legal_dropdown_bar{
+  width: 90%;
+  height: 65px;
+  background-color: #2C4F63;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto 0 auto;
+  border-radius: 25px;
+  border-color: transparent;
+}
+
+.legal_dropdown{
+  width: 87.5%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 50px auto;
+  padding: 25px 25px 25px 25px;
+  border-radius: 25px;
+  border-color: transparent;
 }
 
 /* Footer*/

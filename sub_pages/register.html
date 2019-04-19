@@ -46,28 +46,42 @@
   <div class="registration_passes">
     <div class="registration_passes_box">
       <div class="registration_passes_header">1 Day Pass<br>$899</div>
-      <button class="registration_passes_button">Buy Pass</button>
+      <button class="registration_passes_button" id="pass_1">Add Pass</button>
     </div>
     <div class="registration_passes_box">
-      <div class="registration_passes_header">1 Day Pass<br>$899</div>
-      <button class="registration_passes_button">Buy Pass</button>
+      <div class="registration_passes_header">2 Day Pass<br>$1099</div>
+      <button class="registration_passes_button" id="pass_2">Add Pass</button>
     </div>
     <div class="registration_passes_box">
-      <div class="registration_passes_header">1 Day Pass<br>$899</div>
-      <button class="registration_passes_button">Buy Pass</button>
+      <div class="registration_passes_header">3 Day Pass<br>$1299</div>
+      <button class="registration_passes_button" id="pass_3">Add Pass</button>
     </div>
     <div class="registration_passes_box">
-      <div class="registration_passes_header">1 Day Pass<br>$899</div>
-      <button class="registration_passes_button">Buy Pass</button>
+      <div class="registration_passes_header" id="pass_3w">3 Day Pass + Workshops<br>$1499</div>
+      <button class="registration_passes_button" id="pass_3w_button">Add Pass</button>
     </div>
     <div class="registration_passes_box">
-      <div class="registration_passes_header">1 Day Pass<br>$899</div>
-      <button class="registration_passes_button">Buy Pass</button>
+      <div class="registration_passes_header">Student Pass<br>$300/Day</div>
+      <button class="registration_passes_button" id="student_pass">Add Pass</button>
     </div>
   </div>
   <div class="registration_forms">
     <h1>Checkout</h1>
     <div class="checkout_window">
+      <table>
+        <tr>
+          <th class="checkout_table_left_column">Item</th>
+          <th class="checkout_table_center_column">Price</th>
+          <th class="checkout_table_right_column">Quantity</th>
+        </tr>
+        <tr id="add_item_checkout">
+        </tr>
+        <tr>
+          <td class="checkout_table_left_column"><button class="remove_all">Remove All</button></td>
+          <td class="checkout_table_center_column">Subtotal -</td>
+          <td class="checkout_table_right_column">$<div id="subtotal_math">0</div></td>
+        </tr>
+    </table>
     </div>
     <h1>Shipping Address</h1>
     <div class="shipping_address">
@@ -138,7 +152,8 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/register.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
