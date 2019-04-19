@@ -445,15 +445,9 @@ section.main_content {
   }
 
   .shipping_address{
-    /*display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;*/
     width: 100%;
     height: auto;
     margin: 0 auto 12px auto;
-    background-color: blue;
   }
 
     .first_name_form{
@@ -774,12 +768,10 @@ table {
 }
 
 /* Getting Here Page*/
-
 .getting_here_map{
   width: 75%;
   height: 500px;
   margin: 50px auto 50px auto;
-
 }
 
 /* Footer*/
