@@ -813,6 +813,17 @@ footer{
           margin-right:0;
       }
 
+      .footer_sitemap a{
+        text-decoration: none;
+        color: #ffffff;
+      }
+
+      .footer_sitemap a:hover{
+        text-decoration: none;
+        color: #091028;
+
+      }
+
   .footer_contact{
      text-align: center;
      margin: 0 auto;
