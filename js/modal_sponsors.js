@@ -1,15 +1,15 @@
 $(document).ready(function(){
   /*Hover States*/
   /* Tech Council */
-  $("#sponsors_flex_1").mouseenter(function(){ /*On hover shows hover state, and then returns to original html/css */
+  $("#sponsor_tech_council").mouseenter(function(){ /*On hover shows hover state, and then returns to original html/css */
     $("#sponsor_tech_council").html('<img src="../../img/sponsor_logos/pa_tech_council_2_hover.png" id="tech_council" width="374px" height="auto" alt="Technology Council of Central Pennsylvania"></img>');
   });
-  $("#sponsors_flex_1").mouseleave(function(){ /*On hover shows hover state, and then returns to original html/css */
+  $("#sponsor_tech_council").mouseleave(function(){ /*On hover shows hover state, and then returns to original html/css */
     $("#sponsor_tech_council").html('<img src="../../img/sponsor_logos/pa_tech_council_2.png" id="tech_council" width="374px" height="auto" alt="Technology Council of Central Pennsylvania"></img>');
   });
     /* Modal State */
-    $("#sponsor_tech_council").click(function(){
-      $(".speakers_modal_content_1").css({"display": "block"});
+    $("#modal_test").click(function(){
+      $("#speakers_modal_content_1").css({"display": "block"});
     });
 
   /* samsung */
