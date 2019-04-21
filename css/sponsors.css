@@ -105,9 +105,18 @@ textarea {
      flex-wrap: wrap;
      justify-content: center;
      align-items: center;
-     width:25%;
+     width:100%;
      height: 135px;
      margin: 60px auto 0 auto;
+   }
+
+   #sponsors_flex_1_1{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     width:100%;
    }
 
    #sponsors_flex_2{
@@ -133,6 +142,36 @@ textarea {
      #sponsors_flex_3 img{
        margin: 0 50px 60px 50px;
      }
+
+#tech_council{
+  width: 374px;
+  height: auto;
+}
+#samsung{
+  width: 316px;
+  height: auto;
+}
+#deloitte{
+  width: 315px;
+  height: auto;
+}
+#harrisburg{
+  width: 318px;
+  height: auto;
+
+}
+#roasted{
+  width: 131px;
+  height: auto;
+}
+#phoenix{
+  width: 257px;
+  height: auto;
+}
+#pwc{
+  width: 170px;
+  height: auto;
+}
 
 /* sponsors modal */
    /* The Modal (background) */

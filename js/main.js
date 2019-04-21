@@ -1,4 +1,8 @@
 $(document).ready(function(){
+  $(".hamburger_menu").click(function(){
+    $(".mobile_nav_text").slideToggle();
+  });
+
   $("#sarah_drasner_link").click(function(){
     $("#speakers_modal_content_20").css({"display": "block"});
   });
