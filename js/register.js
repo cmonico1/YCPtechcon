@@ -23,4 +23,12 @@ $(document).ready(function(){
   $(".remove_all").click(function(){
     ("#add_item_checkout").remove();
   });
+
+
+  $('#checkbox1').change(function(){
+      if(this.checked)
+          $('.billing_container').fadeIn('slow');
+      else
+          $('.billing_container').fadeOut('slow');
+  });
 });

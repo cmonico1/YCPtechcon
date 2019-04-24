@@ -98,6 +98,7 @@
       <button class="registration_passes_button" id="student_pass">Add Pass</button>
     </div>
   </div>
+
   <div class="registration_forms">
     <h1>Checkout</h1>
     <div class="checkout_window">
@@ -119,35 +120,37 @@
     <h1>Shipping Address</h1>
     <div class="shipping_address">
       <form>
-        <input class="first_name_form" type="text" name="First Name" value="First Name">
-        <input class="last_name_form" type="text" name="Last Name" value="Last Name">
-        <input class="address_form" type="text" name="Address" value="Address">
-        <input class="city_form" type="text" name="City" value="City">
-        <input class="state_form" type="text" name="State" value="State">
-        <input class="zipcode_form" type="text" name="Zipcode" value="Zipcode">
+        <input class="first_name_form" type="text" name="First Name" placeholder="First Name">
+        <input class="last_name_form" type="text" name="Last Name" placeholder="Last Name">
+        <input class="address_form" type="text" name="Address" placeholder="Address">
+        <input class="city_form" type="text" name="City" placeholder="City">
+        <input class="state_form" type="text" name="State" placeholder="State">
+        <input class="zipcode_form" type="text" name="Zipcode" placeholder="Zipcode">
       </form>
-      <div class="checkbox"></div>
+      <div class="checkbox"><input type="checkbox" id="checkbox1" name="Billing" value="Billing">Check if your billing address is different than your shipping.<br></div>
     </div>
     <h1>Card Information</h1>
     <div class="card_information">
       <form>
-        <input id="card_name" type="text" name="Name On Card" value="Name On Card">
-        <input id="card_number" type="text" name="Card Number" value="Card Number">
-        <input id="card_date"type="text" name="Date" value="Date">
-        <input id="card_ccv" type="text" name="CCV" value="CCV">
+        <input id="card_name" type="text" name="Name On Card" placeholder="Name On Card">
+        <input id="card_number" type="text" name="Card Number" placeholder="Card Number">
+        <input id="card_date"type="text" name="Date" placeholder="Date">
+        <input id="card_ccv" type="text" name="CCV" placeholder="CCV">
       </form>
     </div>
-    <h1>Billing Information</h1>
-    <div class="billing_information">
-      <form>
-        <input class="first_name_form" type="text" name="First Name" value="First Name">
-        <input class="last_name_form" type="text" name="Last Name" value="Last Name">
-        <input class="address_form" type="text" name="Address" value="Address">
-        <input class="city_form" type="text" name="City" value="City">
-        <input class="state_form" type="text" name="State" value="State">
-        <input class="zipcode_form" type="text" name="Zipcode" value="Zipcode">
-      </form>
-    </div>
+    <div class="billing_container">
+      <h1>Billing Information</h1>
+        <div class="billing_information">
+          <form>
+            <input class="first_name_form" type="text" name="First Name" placeholder="First Name">
+            <input class="last_name_form" type="text" name="Last Name" placeholder="Last Name">
+            <input class="address_form" type="text" name="Address" placeholder="Address">
+            <input class="city_form" type="text" name="City" placeholder="City">
+            <input class="state_form" type="text" name="State" placeholder="State">
+            <input class="zipcode_form" type="text" name="Zipcode" placeholder="Zipcode">
+          </form>
+        </div>
+      </div>
     <button type="submit" class="checkout_button">Checkout</button>
   </div>
 </section>
