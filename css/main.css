@@ -525,25 +525,28 @@ section.main_content {
   }
 
     .first_name_form{
-      width: 49%;
+      width: 48%;
       height: 40px;
       margin: 0 0 12px 0;
+      padding-left: 10px;
       border-radius: 10px;
       border: none;
     }
 
     .last_name_form{
-      width: 49%;
+      width: 48%;
       height: 40px;
       margin: 0 0 12px 0;
+      padding-left: 10px;
       border-radius: 10px;
       border: none;
       float:right;
     }
     .address_form{
-      width: 100%;
+      width: 98.5%;
       height: 40px;
       margin: 0 auto 12px auto;
+      padding-left: 10px;
       border-radius: 10px;
       border: none;
     }
@@ -551,32 +554,58 @@ section.main_content {
       width: 48%;
       height: 40px;
       margin: 0 2px 0 0;
+      padding-left: 10px;
       border-radius: 10px;
       border: none;
     }
     .state_form{
-      width: 24%;
+      width: 20%;
       height: 40px;
       margin: 0 0 0 10px;
+      padding-left: 10px;
       border-radius: 10px;
       border: none;
     }
+
     .zipcode_form{
       width: 24%;
       height: 40px;
       margin: 0 2px 0 0;
+      padding-left: 10px;
       border-radius: 10px;
       border: none;
       float:right;
     }
 
+      .checkbox{
+        width: 100%;
+        height: auto;
+        margin: 8px auto;
+        color: #ffffff;
+      }
+
+      #checkbox1{
+        margin-right: 10px;
+      }
+
+      .checkbox input[type=checkbox], input[type=radio]{
+        vertical-align: middle;
+        position: relative;
+        bottom: 3px;
+      }
+
+      .checkbox input[type=radio]{
+        bottom: 2px;
+      }
+
   .card_information{
-    margin: 0 auto 20px auto
+    margin: 0 auto 20px auto;
   }
     #card_name{
-      width: 100%;
+      width: 98.5%;
       height: 40px;
       margin: 0 auto 12px auto;
+      padding-left: 10px;
       border-radius: 10px;
       border: none;
     }
@@ -585,32 +614,37 @@ section.main_content {
       width: 48%;
       height: 40px;
       margin: 0 2px 0 0;
+      padding-left: 10px;
       border-radius: 10px;
       border: none;
       float:left;
     }
 
     #card_date{
-      width: 24%;
+      width: 23%;
       height: 40px;
-      margin: 0 0 0 15px;
+      margin: 0 10px 0 15px;
+      padding-left: 10px;
       border-radius: 10px;
       border: none;
     }
 
     #card_ccv{
-      width: 24%;
+      width: 20%;
       height: 40px;
       margin: 0 2px 0 0;
+      padding-left: 10px;
       border-radius: 10px;
       border: none;
       float:right;
     }
+  .billing_container{
+    display:none;
+  }
 
   .billing_information{
     margin: 0 auto 20px auto
   }
-
 
 /* Main Content Speakers */
   .speakers_main{
