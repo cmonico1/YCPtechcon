@@ -312,25 +312,9 @@ section.main_content {
   text-align: center;
   font-weight: 400;
 }
-  .passes_container{
-    display: block;
-  }
-
-  .passes_container_iphone{
-    display: none;
-  }
 
   .passes{
     display:flex;
-  }
-
-
-  .speakers_container{
-    display: block;
-  }
-
-  .speakers_container_iphone{
-    display:none;
   }
 
   .speakers{
@@ -342,7 +326,7 @@ section.main_content {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin: 40px auto 40px;
+      margin: 40px auto;
       width: 345px;
       height: 434px;
       background-color: #2C4F63;
@@ -1244,20 +1228,14 @@ footer{
   .main_content_boxes{
   }
 
-  .passes_container{
-    display: none;
+  .passes{
+    display: flex;
+    flex-direction: column;
   }
 
-  .passes_container_iphone{
-    display: block;
-  }
-
-  .speakers_container{
-    display: none;
-  }
-
-  .speakers_container_iphone{
-    display: block;
+  .speakers{
+    display: flex;
+    flex-direction: column;
   }
 
   /* Footer*/
