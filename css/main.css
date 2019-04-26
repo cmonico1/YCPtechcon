@@ -831,8 +831,8 @@ section.main_content {
 /* Schedule Page */
 .table_body{
   width: 80%;
-  margin: 25px auto 25px auto;
-  padding: 75px 20px 75px 0px;
+  margin: 25px auto 65px auto;
+  padding: 10px 60px 60px 10px;
   border-radius: 50px;
   border-color: transparent;
   background-color: #E83D4D;
@@ -840,7 +840,7 @@ section.main_content {
 
 #table_body_3{
   width: 55%;
-  margin: 25px auto 25px auto;
+  margin: 25px auto 65px auto;
   padding: 75px 50px 75px 10px;
   border-radius: 50px;
   border-color: transparent;
@@ -880,22 +880,35 @@ section.main_content {
 
   }
 
+  .table_day_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .table_day_header h1{
+    color: #ffffff;
+  }
+
   td h1{
     color: #ffffff;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 600;
   }
 
   td h2{
     color: #ffffff;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 400;
+    line-height: 18px;
   }
 
   td h3{
     color: #ffffff;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 100;
+    margin-top: -10px;
   }
 
 /* Info Page */
@@ -1134,6 +1147,165 @@ footer{
 
 @media screen and (max-width: 1024px) {
     /* Desktop 2 */
+  /*Nav*/
+  .left_bar{
+   width: 300px;
+   height: 11px;
+   float: left;
+   background-color: #E83D4D;
+  }
+
+  .right_bar{
+   width: 300px;
+   height: 11px;
+   float: right;
+   background-color: #E83D4D;
+  }
+
+  /* Hero Section*/
+  .hero_section{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto -25px auto;
+  }
+
+  /* Index Main Content*/
+      .main_content_boxes{
+        width: 30%;
+      }
+
+  /* Register Main Content */
+    .first_name_form{
+      width: 47%;
+    }
+
+    .last_name_form{
+      width: 47%;
+    }
+    .address_form{
+      width: 98.25%;
+    }
+    .city_form{
+      width: 47%;
+    }
+    .state_form{
+      width: 21%;
+    }
+
+    .zipcode_form{
+      width: 21%;
+    }
+
+    #card_name{
+      width: 98.25%;
+    }
+
+    #card_number{
+      width: 48%;
+    }
+
+    #card_date{
+      width: 21%;
+    }
+
+    #card_ccv{
+      width: 20%;
+    }
+
+/* Speakers Modal Content*/
+#speakers_modal_content_4{
+  padding: 50px 20px 20px 20px;
+}
+  #speakers_modal_content_4 img{
+    margin-top: 20px;
+  }
+    #speakers_modal_content_4 button{
+      margin-bottom: 20px !important;
+    }
+
+/* Schedule Main Content */
+.table_body{
+  width: 80%;
+  margin: 25px auto 65px auto;
+  padding: 10px 60px 60px 10px;
+  border-radius: 50px;
+  border-color: transparent;
+  background-color: #E83D4D;
+}
+
+#table_body_3{
+  width: 80%;
+  margin: 25px auto 65px auto;
+  padding: 75px 50px 75px 10px;
+  border-radius: 50px;
+  border-color: transparent;
+  background-color: #E83D4D;
+}
+
+.table_body table {
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: center;
+  border-collapse: collapse;
+}
+
+  .table_body th {
+    border: 2px solid #ffffff;
+    background-color: #2C4F63;
+    color: #ffffff;
+    padding: 20px;
+
+  }
+
+  .table_body td {
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    background-color: #2C4F63;
+    padding: 20px;
+
+  }
+
+  #border_bottom{
+    border-bottom: 2px solid #ffffff;
+  }
+
+  #header_top_left_corner{
+    background-color: transparent;
+    border: 0px solid #ffffff;
+
+  }
+
+  .table_day_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .table_day_header h1{
+    color: #ffffff;
+  }
+
+  td h1{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  td h2{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  td h3{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: -10px;
+  }
 }
 
 @media screen and (max-width: 834px) {

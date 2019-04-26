@@ -1,16 +1,18 @@
 $(document).ready(function(){
   /*Hover States*/
+
   /* Tech Council */
   $("#sponsor_tech_council").mouseenter(function(){ /*On hover shows hover state, and then returns to original html/css */
-    $("#sponsor_tech_council").html('<img src="../../img/sponsor_logos/pa_tech_council_2_hover.png" id="tech_council" width="374px" height="auto" alt="Technology Council of Central Pennsylvania"></img>');
+    $("#sponsor_tech_council").html('<img src="../../img/sponsor_logos/pa_tech_council_2_hover.png" id="tech_council" alt="Technology Council of Central Pennsylvania"></img>');
   });
   $("#sponsor_tech_council").mouseleave(function(){ /*On hover shows hover state, and then returns to original html/css */
-    $("#sponsor_tech_council").html('<img src="../../img/sponsor_logos/pa_tech_council_2.png" id="tech_council" width="374px" height="auto" alt="Technology Council of Central Pennsylvania"></img>');
+    $("#sponsor_tech_council").html('<img src="../../img/sponsor_logos/pa_tech_council_2.png" id="tech_council" alt="Technology Council of Central Pennsylvania"></img>');
   });
-    /* Modal State */
-    $("#modal_test").click(function(){
-      $("#speakers_modal_content_1").css({"display": "block"});
-    });
+
+  /* Modal State */
+  $("#sponsor_tech_council").click(function(){
+    $("#sponsors_modal_content_1").css({"display": "block"});
+  });
 
   /* samsung */
   $("#sponsor_samsung").mouseenter(function(){ /*On hover shows hover state, and then returns to original html/css */
@@ -21,7 +23,7 @@ $(document).ready(function(){
   });
     /* Modal State */
     $("#sponsor_samsung").click(function(){
-      $("#speakers_modal_content_2").css({"display": "block"});
+      $("#sponsors_modal_content_2").css({"display": "block"});
     });
 
   /* Deloitte */
@@ -33,7 +35,7 @@ $(document).ready(function(){
   });
     /* Modal State */
     $("#sponsor_deloitte").click(function(){
-      $("#speakers_modal_content_3").css({"display": "block"});
+      $("#sponsors_modal_content_3").css({"display": "block"});
     });
 
   /* Harrisburg */
@@ -45,7 +47,7 @@ $(document).ready(function(){
   });
     /* Modal State */
     $("#sponsor_harrisburg").click(function(){
-      $("#speakers_modal_content_4").css({"display": "block"});
+      $("#sponsors_modal_content_4").css({"display": "block"});
     });
 
   /* Hosting */
@@ -57,7 +59,7 @@ $(document).ready(function(){
   });
     /* Modal State */
     $("#sponsor_roasted").click(function(){
-      $("#speakers_modal_content_5").css({"display": "block"});
+      $("#sponsors_modal_content_5").css({"display": "block"});
     });
 
   /* Phoenix */
@@ -69,7 +71,7 @@ $(document).ready(function(){
   });
     /* Modal State */
     $("#sponsor_phoenix").click(function(){
-      $("#speakers_modal_content_6").css({"display": "block"});
+      $("#sponsors_modal_content_6").css({"display": "block"});
     });
 
   /* PWC */
@@ -81,7 +83,7 @@ $(document).ready(function(){
   });
     /* Modal State */
     $("#sponsor_pwc").click(function(){
-      $("#speakers_modal_content_7").css({"display": "block"});
+      $("#sponsors_modal_content_7").css({"display": "block"});
     });
 
 /*Close Modals*/
