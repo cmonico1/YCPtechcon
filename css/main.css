@@ -429,10 +429,6 @@ section.main_content {
     top: -55px !important;
   }
 
-  #pass_3w_button{
-    bottom: -55px !important;
-  }
-
 .registration_passes_button {
   position: relative;
   bottom: -80px;
@@ -446,25 +442,28 @@ section.main_content {
   border-radius: 20px;
   border-color: #E83D4D;
 }
-
-  .registration_forms{
-    width: 62%;
-    height: auto;
-    margin: 0 auto;
+  #pass_3w_button{
+    bottom: -55px !important;
   }
 
-    .registration_forms h1{
-      color:white;
-    }
+/* registration checkout and forms container*/
+.registration_forms{
+  width: 62%;
+  height: auto;
+  margin: 0 auto;
+  background-color: blue;
+}
+  .registration_forms h1{
+    color:white;
+  }
 
   .checkout_window{
-    width: 91.5%;
+    width: 92%;
     height: auto;
     margin: 0 auto;
-    padding: 50px 50px 50px 50px;
+    padding: 50px;
     background-color: #ffffff;
     border-radius: 50px;
-
   }
 
   .checkout_window table{
@@ -489,11 +488,13 @@ section.main_content {
   #subtotal_math{
     width: auto;
     height: 20px;
+    padding: 1px;
     background-color: #E6E6E6;
     float: right;
     text-align: center;
   }
 
+/*Shipping Address*/
   .shipping_address{
     width: 100%;
     height: auto;
@@ -531,7 +532,7 @@ section.main_content {
       float:right;
     }
     .address_form{
-      width: 98.5%;
+      width: 99%;
       height: 40px;
       margin: 0 auto 12px auto;
       padding-left: 10px;
@@ -541,7 +542,6 @@ section.main_content {
     .city_form{
       width: 48%;
       height: 40px;
-      margin: 0 2px 0 0;
       padding-left: 10px;
       border-radius: 10px;
       border: none;
@@ -549,16 +549,16 @@ section.main_content {
     .state_form{
       width: 20%;
       height: 40px;
-      margin: 0 0 0 10px;
+      margin: 0 0 0 20px;
       padding-left: 10px;
       border-radius: 10px;
       border: none;
     }
 
     .zipcode_form{
-      width: 24%;
+      width: 25%;
       height: 40px;
-      margin: 0 2px 0 0;
+      margin: 0 0 0 0;
       padding-left: 10px;
       border-radius: 10px;
       border: none;
@@ -590,7 +590,7 @@ section.main_content {
     margin: 0 auto 20px auto;
   }
     #card_name{
-      width: 98.5%;
+      width: 99%;
       height: 40px;
       margin: 0 auto 12px auto;
       padding-left: 10px;
@@ -599,9 +599,9 @@ section.main_content {
     }
 
     #card_number{
-      width: 48%;
+      width: 48.5%;
       height: 40px;
-      margin: 0 2px 0 0;
+      margin: 0 25px 0 0;
       padding-left: 10px;
       border-radius: 10px;
       border: none;
@@ -609,9 +609,9 @@ section.main_content {
     }
 
     #card_date{
-      width: 23%;
+      width: 25%;
       height: 40px;
-      margin: 0 10px 0 15px;
+      margin: 0 2px 0 0px;
       padding-left: 10px;
       border-radius: 10px;
       border: none;
@@ -620,7 +620,6 @@ section.main_content {
     #card_ccv{
       width: 20%;
       height: 40px;
-      margin: 0 2px 0 0;
       padding-left: 10px;
       border-radius: 10px;
       border: none;
@@ -1139,7 +1138,7 @@ footer{
 }
 ========================================================================== */
 @media screen and (max-width: 1800px){
-  /* Register Main Content */
+/* Register Main Content */
   .registration_passes{
     justify-content: center;
   }
@@ -1149,6 +1148,30 @@ footer{
     align-items: center;
     margin: 40px 90px 40px 90px;
   }
+/* registration checkout and forms container*/
+  .checkout_window{
+    width: 91%;
+  }
+
+/*Shipping Address*/
+    .state_form{
+      width: 20%;
+      margin: 0 0 0 18px;
+    }
+
+    .zipcode_form{
+      width: 25%;
+      margin: 0 0 0 0;
+    }
+
+
+    #card_number{
+      margin: 0 22px 0 0;
+    }
+
+    #card_date{
+      margin: 0 2px 0 0px;
+    }
 }
 
 @media screen and (max-width: 1650px) {
@@ -1201,6 +1224,130 @@ footer{
     height: 100%;
     margin: 20px auto 0px auto;
   }
+
+/* registration checkout and forms container*/
+  .checkout_window{
+    width: 88.5%;
+  }
+
+/*Shipping Address*/
+  .checkout_button {
+    width: 199px;
+    height: 76px;
+    color: #ffffff;
+    font-size: 30px;
+    background-color: #E83D4D;
+    border-radius: 25px;
+    border-color: transparent;
+    margin: 0 0 50px 0;
+    float: right;
+  }
+
+    .first_name_form{
+      width: 48%;
+      height: 40px;
+      margin: 0 0 12px 0;
+      padding-left: 10px;
+      border-radius: 10px;
+      border: none;
+    }
+
+    .last_name_form{
+      width: 48%;
+      height: 40px;
+      margin: 0 0 12px 0;
+      padding-left: 10px;
+      border-radius: 10px;
+      border: none;
+      float:right;
+    }
+
+    .address_form{
+      width: 98.75%;
+    }
+
+    .state_form{
+      margin: 0 0 0 10px;
+    }
+
+    .zipcode_form{
+      width: 25%;
+      height: 40px;
+      margin: 0 0 0 0;
+      padding-left: 10px;
+      border-radius: 10px;
+      border: none;
+      float:right;
+    }
+
+      .checkbox{
+        width: 100%;
+        height: auto;
+        margin: 8px auto;
+        color: #ffffff;
+      }
+
+      #checkbox1{
+        margin-right: 10px;
+      }
+
+      .checkbox input[type=checkbox], input[type=radio]{
+        vertical-align: middle;
+        position: relative;
+        bottom: 3px;
+      }
+
+      .checkbox input[type=radio]{
+        bottom: 2px;
+      }
+
+  .card_information{
+    margin: 0 auto 20px auto;
+  }
+    #card_name{
+      width: 99%;
+      height: 40px;
+      margin: 0 auto 12px auto;
+      padding-left: 10px;
+      border-radius: 10px;
+      border: none;
+    }
+
+    #card_number{
+      width: 48.5%;
+      height: 40px;
+      margin: 0 25px 0 0;
+      padding-left: 10px;
+      border-radius: 10px;
+      border: none;
+      float:left;
+    }
+
+    #card_date{
+      width: 25%;
+      height: 40px;
+      margin: 0 2px 0 0px;
+      padding-left: 10px;
+      border-radius: 10px;
+      border: none;
+    }
+
+    #card_ccv{
+      width: 20%;
+      height: 40px;
+      padding-left: 10px;
+      border-radius: 10px;
+      border: none;
+      float:right;
+    }
+  .billing_container{
+    display:none;
+  }
+
+  .billing_information{
+    margin: 0 auto 20px auto
+  }
+
 }
 
 @media screen and (max-width: 1350px){
