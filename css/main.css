@@ -451,7 +451,6 @@ section.main_content {
   width: 62%;
   height: auto;
   margin: 0 auto;
-  background-color: blue;
 }
   .registration_forms h1{
     color:white;
@@ -1229,131 +1228,67 @@ footer{
   .checkout_window{
     width: 88.5%;
   }
-
 /*Shipping Address*/
   .checkout_button {
     width: 199px;
     height: 76px;
-    color: #ffffff;
     font-size: 30px;
-    background-color: #E83D4D;
-    border-radius: 25px;
-    border-color: transparent;
     margin: 0 0 50px 0;
-    float: right;
   }
-
     .first_name_form{
       width: 48%;
-      height: 40px;
       margin: 0 0 12px 0;
-      padding-left: 10px;
-      border-radius: 10px;
-      border: none;
     }
 
     .last_name_form{
       width: 48%;
-      height: 40px;
       margin: 0 0 12px 0;
-      padding-left: 10px;
-      border-radius: 10px;
-      border: none;
-      float:right;
     }
-
     .address_form{
       width: 98.75%;
     }
-
     .state_form{
       margin: 0 0 0 10px;
     }
-
     .zipcode_form{
       width: 25%;
-      height: 40px;
       margin: 0 0 0 0;
-      padding-left: 10px;
-      border-radius: 10px;
-      border: none;
-      float:right;
     }
-
-      .checkbox{
-        width: 100%;
-        height: auto;
-        margin: 8px auto;
-        color: #ffffff;
-      }
-
-      #checkbox1{
-        margin-right: 10px;
-      }
-
-      .checkbox input[type=checkbox], input[type=radio]{
-        vertical-align: middle;
-        position: relative;
-        bottom: 3px;
-      }
-
-      .checkbox input[type=radio]{
-        bottom: 2px;
-      }
-
   .card_information{
     margin: 0 auto 20px auto;
   }
     #card_name{
       width: 99%;
-      height: 40px;
       margin: 0 auto 12px auto;
-      padding-left: 10px;
-      border-radius: 10px;
-      border: none;
     }
-
     #card_number{
       width: 48.5%;
-      height: 40px;
-      margin: 0 25px 0 0;
-      padding-left: 10px;
-      border-radius: 10px;
-      border: none;
-      float:left;
+      margin: 0 13px 0 0;
     }
-
     #card_date{
-      width: 25%;
-      height: 40px;
+      width: 24.5%;
       margin: 0 2px 0 0px;
-      padding-left: 10px;
-      border-radius: 10px;
-      border: none;
     }
-
     #card_ccv{
       width: 20%;
-      height: 40px;
-      padding-left: 10px;
-      border-radius: 10px;
-      border: none;
-      float:right;
     }
-  .billing_container{
-    display:none;
-  }
-
-  .billing_information{
-    margin: 0 auto 20px auto
-  }
-
 }
 
 @media screen and (max-width: 1350px){
-  /* Register Main Content */
+/* Register Main Content */
   .registration_passes_box{
     margin: 40px 20px 40px 20px;
+  }
+/* registration checkout and forms container*/
+  .checkout_window{
+    width: 88%;
+  }
+/*Shipping Address*/
+  .address_form{
+    width: 98.75%;
+  }
+  #card_name{
+    width: 98.75%;
   }
 }
 
@@ -1381,6 +1316,33 @@ footer{
   .registration_passes_box{
     margin: 40px 10px 40px 10px;
   }
+
+/* registration checkout and forms container*/
+  .checkout_window{
+    width: 86.5%;
+  }
+/*Shipping Address*/
+    .first_name_form{
+      width: 47.5%;
+    }
+    .last_name_form{
+      width: 47.5%;
+    }
+    .address_form{
+      width: 98.5%;
+    }
+    .zipcode_form{
+      width: 23.5%;
+    }
+    #card_name{
+      width: 98.5%;
+    }
+    #card_number{
+      width: 48%;
+    }
+    #card_date{
+      width: 23.75%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -1421,10 +1383,12 @@ footer{
   .registration_passes_box{
     margin: 40px auto 40px auto;
   }
+  .checkout_window{
+    width: 83.8%;
+  }
     .first_name_form{
       width: 47%;
     }
-
     .last_name_form{
       width: 47%;
     }
@@ -1435,11 +1399,11 @@ footer{
       width: 47%;
     }
     .state_form{
-      width: 21%;
+      width: 21.5%;
     }
 
     .zipcode_form{
-      width: 21%;
+      width: 21.5%;
     }
 
     #card_name{
@@ -1447,15 +1411,15 @@ footer{
     }
 
     #card_number{
-      width: 48%;
+      width: 47.5%;
     }
 
     #card_date{
-      width: 21%;
+      width: 21.5%;
     }
 
     #card_ccv{
-      width: 20%;
+      width: 21%;
     }
 
 /* Speakers Modal Content*/
@@ -1617,6 +1581,34 @@ footer{
       width:75%;
       height: auto;
     }
+
+/* registration checkout and forms container*/
+.registration_forms{
+  width: 80%;
+}
+  .checkout_window{
+    width: 84.5%;
+  }
+
+/*Shipping Address*/
+    .state_form{
+      width: 21.75%;
+      margin: 0 0 0 13px;
+    }
+    .zipcode_form{
+      width: 21%;
+      margin: 0 0 0 0;
+    }
+    #card_number{
+      margin: 0 0px 0 0;
+    }
+    #card_date{
+      width: 21.75%;
+      margin: 0 0 0 18px;
+    }
+    #card_ccv{
+      width: 20%;
+    }
 }
 
 @media screen and (max-width: 776px) {
@@ -1648,6 +1640,55 @@ footer{
      font-size: 22px;
      font-weight: 400;
     }
+
+/* registration checkout and forms container*/
+.registration_forms{
+  width: 80%;
+}
+
+  .checkout_window{
+    width: 83.5%;
+  }
+
+/*Shipping Address*/
+  .first_name_form{
+    width: 47%;
+  }
+  .last_name_form{
+    width: 47%;
+  }
+  .address_form{
+    width: 98.25%;
+  }
+  .city_form{
+    width: 47%;
+  }
+  .state_form{
+    width: 20%;
+    margin: 0 0 0 12px;
+  }
+
+  .zipcode_form{
+    width: 22%;
+  }
+
+  #card_name{
+    width: 98.25%;
+  }
+
+  #card_number{
+    width: 48%;
+    margin: 0 15px 0 0;
+  }
+
+  #card_date{
+    width: 20%;
+    margin: 0 2px 0 0px;
+  }
+
+  #card_ccv{
+    width: 21%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1762,20 +1803,49 @@ footer{
     #pass_3w_button{
       bottom: -25px !important;
     }
+
+/*Shipping Address*/
+  .first_name_form{
+    width: 47%;
+  }
+  .last_name_form{
+    width: 47%;
+  }
+  .address_form{
+    width: 98.25%;
+  }
+  .city_form{
+    width: 47%;
+  }
+  .state_form{
+    width: 20%;
+    margin: 0 0 0 5px;
+  }
+
+  .zipcode_form{
+    width: 23%;
+  }
+
+  #card_name{
+    width: 98.25%;
+  }
+
+  #card_number{
+    width: 48%;
+    margin: 0 10px 0 0;
+  }
+
+  #card_date{
+    width: 20.5%;
+    margin: 0 2px 0 0px;
+  }
+
+  #card_ccv{
+    width: 21.5%;
+  }
 }
 
 @media screen and (max-width: 585px) {
-    /* Iphone 8 Plus
-  html {
-    transform: rotate(-0deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-  */
   .main_nav{
     display: none;
   }
@@ -1965,24 +2035,80 @@ footer{
 
   /* Register Main Content */
   .registration_passes_box{
-    margin: 40px auto 40px auto;
-    width: 345px;
-    height: 434px;
+    margin: 10px auto 10px auto;
+    width: 30%;
+    height: 200px;
+    border-radius:30px;
   }
 
   .registration_passes_header {
-    top: -80px;
+    top: -30px;
+    margin: 100px auto 100px auto;
+    font-size: 18px;
+
   }
     #pass_3w{
-      top: -55px !important;
-    }
-
-    #pass_3w_button{
-      bottom: -55px !important;
+      top: -20px !important;
     }
 
   .registration_passes_button {
-    bottom: -80px;
+    width: 70%;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    bottom: 70px;
+  }
+
+    #pass_3w_button{
+      bottom: 80px !important;
+    }
+
+
+/* registration checkout and forms container*/
+.registration_forms{
+  width: 90%;
+}
+  .checkout_window{
+    width: 80.75%;
+  }
+/*Shipping Address*/
+  .first_name_form{
+    width: 46%;
+  }
+  .last_name_form{
+    width: 46%;
+  }
+  .address_form{
+    width: 98%;
+  }
+  .city_form{
+    width: 46%;
+  }
+  .state_form{
+    width: 20%;
+    margin: 0 0 0 15px;
+  }
+
+  .zipcode_form{
+    width: 21%;
+  }
+
+  #card_name{
+    width: 98%;
+  }
+
+  #card_number{
+    width: 46.5%;
+    margin: 0 20px 0 0;
+  }
+
+  #card_date{
+    width: 20%;
+    margin: 0 2px 0 0px;
+  }
+
+  #card_ccv{
+    width: 20%;
   }
 
   /* Footer*/
@@ -2090,17 +2216,6 @@ footer{
 }
 
 @media screen and (max-width: 414px) {
-    /* Iphone 8 Plus
-  html {
-    transform: rotate(-0deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-*/
   .main_nav{
     display: none;
   }
@@ -2221,6 +2336,91 @@ footer{
     flex-direction: column;
   }
 
+  /* Register Main Content */
+  .registration_passes_box{
+    margin: 10px auto 10px auto;
+    width: 40%;
+    height: 190px;
+    border-radius:30px;
+  }
+
+  .registration_passes_header {
+    top: -30px;
+    margin: 100px auto 100px auto;
+    font-size: 18px;
+
+  }
+    #pass_3w{
+      top: -20px !important;
+    }
+
+  .registration_passes_button {
+    width: 70%;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    bottom: 70px;
+    border-radius: 15px;
+  }
+
+    #pass_3w_button{
+      bottom: 80px !important;
+    }
+
+  /* registration checkout and forms container*/
+  .registration_forms{
+    width: 90%;
+  }
+    .checkout_window{
+      width: 73%;
+    }
+  /*Shipping Address*/
+    .first_name_form{
+      width: 45%;
+    }
+    .last_name_form{
+      width: 45%;
+    }
+    .address_form{
+      width: 97%;
+    }
+    .city_form{
+      width: 45%;
+    }
+    .state_form{
+      width: 15%;
+      margin: 0 0 0 13px;
+    }
+    .zipcode_form{
+      width: 22%;
+    }
+    #card_name{
+      width: 97%;
+    }
+    #card_number{
+      width: 45%;
+      margin: 0 15px 0 0;
+    }
+    #card_date{
+      width: 21%;
+      margin: 0 2px 0 0px;
+    }
+    #card_ccv{
+      width: 17%;
+    }
+
+    .checkbox{
+      font-size: 13px;
+    }
+    #checkbox1{
+      width: 20px;
+      height: 20px;
+      margin: 10px 10px 0px 0px;
+    }
+    .checkbox input[type=checkbox], input[type=radio]{
+      bottom: 7px;
+    }
+
   /* Footer*/
   footer{
     background-color: #E83D4D;
@@ -2321,24 +2521,73 @@ footer{
 
   /* Register Main Content */
   .registration_passes_box{
-    margin: 40px auto 40px auto;
-    width: 280px;
-    height: 350px;
+    margin: 10px auto 10px auto;
+    width: 40%;
+    height: 170px;
+    border-radius: 30px;
   }
 
   .registration_passes_header {
-    top: -50px;
+    top: -20px;
+    margin: 100px auto 100px auto;
+    font-size: 18px;
+
   }
     #pass_3w{
-      top: -25px !important;
-    }
-
-    #pass_3w_button{
-      bottom: -25px !important;
+      top: -10px !important;
     }
 
   .registration_passes_button {
-    bottom: -45px;
+    width: 70%;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    bottom: 80px;
+    border-radius: 15px;
+  }
+
+    #pass_3w_button{
+      bottom: 90px !important;
+    }
+
+
+/* registration checkout and forms container*/
+  .checkout_window{
+    width: 70%;
+  }
+/*Shipping Address*/
+  .first_name_form{
+    width: 45%;
+  }
+  .last_name_form{
+    width: 45%;
+  }
+  .address_form{
+    width: 97%;
+  }
+  .city_form{
+    width: 45%;
+  }
+  .state_form{
+    width: 15.5%;
+    margin: 0 0 0 9px;
+  }
+
+  #card_name{
+    width: 97%;
+  }
+  #card_number{
+    width: 45%;
+    margin: 0 14px 0 0;
+  }
+  #card_date{
+    width: 21%;
+  }
+  #card_ccv{
+    width: 16%;
+  }
+  .checkbox{
+    font-size: 11px;
   }
 }
 
@@ -2357,58 +2606,168 @@ footer{
     font-size: 30px;
   }
 
-  /* Register Main Content */
-  .registration_passes_box{
-    margin: 40px auto 40px auto;
-    width: 90%;
-    height: auto;
+/* Register Main Content */
+.registration_passes_box{
+  margin: 10px auto 10px auto;
+  width: 40%;
+  height: 142px;
+  border-radius:30px;
+}
+
+.registration_passes_header {
+  top: -10px;
+  margin: 100px auto 100px auto;
+  font-size: 18px;
+
+}
+  #pass_3w{
+    top: -5px !important;
   }
 
-  .registration_passes_header {
-    top: -50px;
-    margin: 100px auto 100px auto;
+.registration_passes_button {
+  width: 70%;
+  height: 50px;
+  padding: 10px;
+  font-size: 15px;
+  bottom: 90px;
+  border-radius: 15px;
+}
+
+  #pass_3w_button{
+    bottom: 100px !important;
   }
-    #pass_3w{
-      top: -15px !important;
+
+/* registration checkout and forms container*/
+  .registration_forms h1{
+    margin-bottom: 5px;
+  }
+
+  .checkout_window{
+    width: 79.25%;
+    padding: 50px 30px 50px 30px;
+  }
+
+  /*Shipping Address*/
+    .first_name_form{
+      width: 44%;
+    }
+    .last_name_form{
+      width: 44%;
+    }
+    .address_form{
+      width: 96.25%;
+    }
+    .city_form{
+      width: 44%;
+    }
+    .state_form{
+      width: 15.5%;
+      margin: 0 0 0 9px;
+    }
+    .zipcode_form{
+      width: 22.25%;
+      padding-left: 5px;
     }
 
-    #pass_3w_button{
-      bottom: 45px !important;
+    #card_name{
+      width: 96.25%;
+    }
+    #card_number{
+      width: 45%;
+      margin: 0 14px 0 0;
+    }
+    #card_date{
+      width: 21%;
+    }
+    #card_ccv{
+      width: 16%;
+    }
+    .checkbox{
+      font-size: 15px;
+    }
+    #checkbox1{
+      width: 17px;
+      height: 17px;
     }
 
-  .registration_passes_button {
-    bottom: 45px;
-  }
+    .checkout_button{
+      width: 40%;
+      height: 60px;
+      font-size: 18px;
+      border-radius: 18px;
+    }
 }
 
 @media screen and (max-width: 260px) {
   /* Register Main Content */
   .registration_passes_box{
-    margin: 40px auto 40px auto;
-    width: 90%;
-    height: auto;
+    margin: 10px auto 10px auto;
+    width: 65%;
+    height: 175px;
   }
 
   .registration_passes_header {
-    top: -50px;
+    top: -20px;
     margin: 100px auto 100px auto;
     font-size: 20px;
   }
     #pass_3w{
-      top: -15px !important;
+      top: -5px !important;
       width: 75%;
     }
 
     #pass_3w_button{
-      bottom: 45px !important;
+      bottom: 95px !important;
     }
 
   .registration_passes_button {
-    bottom: 45px;
+    bottom: 85px;
     width: 70%;
     height: 55px;
     font-size: 20px;
   }
+/* registration checkout and forms container*/
+  .checkout_window{
+    width: 95.25%;
+    padding: 40px 5px 40px 5px;
+    font-size: 14px;
+  }
+
+  /*Shipping Address*/
+    .first_name_form{
+      width: 41.5%;
+    }
+    .last_name_form{
+      width: 41.5%;
+    }
+    .address_form{
+      width: 95.75%;
+    }
+    .city_form{
+      width: 30%;
+    }
+    .state_form{
+      width: 20%;
+      margin: 0 0 0 9px;
+    }
+    .zipcode_form{
+      width: 26%;
+    }
+
+    #card_name{
+      width: 95.75%;
+    }
+    #card_number{
+      width: 43%;
+      margin: 0 14px 0 0;
+      padding-left: 5px;
+    }
+    #card_date{
+      width: 18%;
+    }
+    #card_ccv{
+      width: 16%;
+    }
 }
 
 @media print,
