@@ -1218,8 +1218,7 @@ footer{
 }
 ========================================================================== */
 @media screen and (max-width: 1800px){
-/*Desktop 2*/
-  /* Register Main Content */
+/* Register Main Content */
   .registration_passes{
     justify-content: center;
   }
@@ -1239,17 +1238,13 @@ footer{
       width: 20%;
       margin: 0 0 0 18px;
     }
-
     .zipcode_form{
       width: 25%;
       margin: 0 0 0 0;
     }
-
-
     #card_number{
       margin: 0 22px 0 0;
     }
-
     #card_date{
       margin: 0 2px 0 0px;
     }
@@ -1339,7 +1334,6 @@ footer{
     margin: 40px 50px 40px 50px;
   }
 
-
   /* Main Content Speakers */
     /*Modal*/
     /* The Modal (background)*/
@@ -1400,128 +1394,55 @@ footer{
     margin: 20px auto 0px auto;
   }
 
-/* registration checkout and forms container*/
-  .checkout_window{
-    width: 88.5%;
-  }
 
-/*Shipping Address*/
-  .checkout_button {
-    width: 199px;
-    height: 76px;
-    color: #ffffff;
-    font-size: 30px;
-    background-color: #E83D4D;
-    border-radius: 25px;
-    border-color: transparent;
-    margin: 0 0 50px 0;
-    float: right;
-  }
-
-    .first_name_form{
-      width: 48%;
-      height: 40px;
-      margin: 0 0 12px 0;
-      padding-left: 10px;
-      border-radius: 10px;
-      border: none;
+  /* registration checkout and forms container*/
+    .checkout_window{
+      width: 88.5%;
     }
-
-    .last_name_form{
-      width: 48%;
-      height: 40px;
-      margin: 0 0 12px 0;
-      padding-left: 10px;
-      border-radius: 10px;
-      border: none;
-      float:right;
+  /*Shipping Address*/
+    .checkout_button {
+      width: 199px;
+      height: 76px;
+      font-size: 30px;
+      margin: 0 0 50px 0;
     }
-
-    .address_form{
-      width: 98.75%;
-    }
-
-    .state_form{
-      margin: 0 0 0 10px;
-    }
-
-    .zipcode_form{
-      width: 25%;
-      height: 40px;
-      margin: 0 0 0 0;
-      padding-left: 10px;
-      border-radius: 10px;
-      border: none;
-      float:right;
-    }
-
-      .checkbox{
-        width: 100%;
-        height: auto;
-        margin: 8px auto;
-        color: #ffffff;
+      .first_name_form{
+        width: 48%;
+        margin: 0 0 12px 0;
       }
 
-      #checkbox1{
-        margin-right: 10px;
+      .last_name_form{
+        width: 48%;
+        margin: 0 0 12px 0;
       }
-
-      .checkbox input[type=checkbox], input[type=radio]{
-        vertical-align: middle;
-        position: relative;
-        bottom: 3px;
+      .address_form{
+        width: 98.75%;
       }
-
-      .checkbox input[type=radio]{
-        bottom: 2px;
+      .state_form{
+        margin: 0 0 0 10px;
       }
-
-  .card_information{
-    margin: 0 auto 20px auto;
-  }
-    #card_name{
-      width: 99%;
-      height: 40px;
-      margin: 0 auto 12px auto;
-      padding-left: 10px;
-      border-radius: 10px;
-      border: none;
+      .zipcode_form{
+        width: 25%;
+        margin: 0 0 0 0;
+      }
+    .card_information{
+      margin: 0 auto 20px auto;
     }
-
-    #card_number{
-      width: 48.5%;
-      height: 40px;
-      margin: 0 15px 0 0;
-      padding-left: 10px;
-      border-radius: 10px;
-      border: none;
-      float:left;
-    }
-
-    #card_date{
-      width: 24%;
-      height: 40px;
-      margin: 0 2px 0 0px;
-      padding-left: 10px;
-      border-radius: 10px;
-      border: none;
-    }
-
-    #card_ccv{
-      width: 20%;
-      height: 40px;
-      padding-left: 10px;
-      border-radius: 10px;
-      border: none;
-      float:right;
-    }
-  .billing_container{
-    display:none;
-  }
-
-  .billing_information{
-    margin: 0 auto 20px auto
-  }
+      #card_name{
+        width: 99%;
+        margin: 0 auto 12px auto;
+      }
+      #card_number{
+        width: 48.5%;
+        margin: 0 13px 0 0;
+      }
+      #card_date{
+        width: 24.5%;
+        margin: 0 2px 0 0px;
+      }
+      #card_ccv{
+        width: 20%;
+      }
 
 
   /* Main Content Speakers */
@@ -1741,9 +1662,20 @@ footer{
 
 @media screen and (max-width: 1350px){
   /* Register Main Content */
-  .registration_passes_box{
-    margin: 40px 20px 40px 20px;
-  }
+    .registration_passes_box{
+      margin: 40px 20px 40px 20px;
+    }
+  /* registration checkout and forms container*/
+    .checkout_window{
+      width: 88%;
+    }
+  /*Shipping Address*/
+    .address_form{
+      width: 98.75%;
+    }
+    #card_name{
+      width: 98.75%;
+    }
 }
 
 @media screen and (max-width: 1190px) {
@@ -1765,10 +1697,36 @@ footer{
   .main_content_boxes{
     width: 30%;
   }
-  /* Register Main Content */
-  .registration_passes_box{
-    margin: 40px 10px 40px 10px;
+/* Register Main Content */
+.registration_passes_box{
+  margin: 40px 10px 40px 10px;
+}
+/* registration checkout and forms container*/
+  .checkout_window{
+    width: 86.5%;
   }
+/*Shipping Address*/
+    .first_name_form{
+      width: 47.5%;
+    }
+    .last_name_form{
+      width: 47.5%;
+    }
+    .address_form{
+      width: 98.5%;
+    }
+    .zipcode_form{
+      width: 23.5%;
+    }
+    #card_name{
+      width: 98.5%;
+    }
+    #card_number{
+      width: 48%;
+    }
+    #card_date{
+      width: 23.75%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -1805,46 +1763,48 @@ footer{
     width: 30%;
   }
 
-  /* Register Main Content */
-  .registration_passes_box{
-    margin: 40px auto 40px auto;
+/* Register Main Content */
+.registration_passes_box{
+  margin: 40px auto 40px auto;
+}
+.checkout_window{
+  width: 83.8%;
+}
+  .first_name_form{
+    width: 47%;
   }
-    .first_name_form{
-      width: 47%;
-    }
+  .last_name_form{
+    width: 47%;
+  }
+  .address_form{
+    width: 98.25%;
+  }
+  .city_form{
+    width: 47%;
+  }
+  .state_form{
+    width: 21.5%;
+  }
 
-    .last_name_form{
-      width: 47%;
-    }
-    .address_form{
-      width: 98.25%;
-    }
-    .city_form{
-      width: 47%;
-    }
-    .state_form{
-      width: 21%;
-    }
+  .zipcode_form{
+    width: 21.5%;
+  }
 
-    .zipcode_form{
-      width: 21%;
-    }
+  #card_name{
+    width: 98.25%;
+  }
 
-    #card_name{
-      width: 98.25%;
-    }
+  #card_number{
+    width: 47.5%;
+  }
 
-    #card_number{
-      width: 48%;
-    }
+  #card_date{
+    width: 21.5%;
+  }
 
-    #card_date{
-      width: 21%;
-    }
-
-    #card_ccv{
-      width: 20%;
-    }
+  #card_ccv{
+    width: 21%;
+  }
 
 /* Schedule Main Content */
 .table_body{
@@ -2070,6 +2030,43 @@ footer{
 }
 
 @media screen and (max-width: 930px){
+  /* Register Main Content */
+  .registration_passes_box{
+    margin: 40px auto 40px auto;
+  }
+  /*Shipping Address*/
+      .first_name_form{
+        width: 47%;
+      }
+      .last_name_form{
+        width: 47%;
+      }
+      .address_form{
+        width: 98.5%;
+      }
+      .city_form{
+        width: 47%;
+      }
+      .state_form{
+        width: 20%;
+        margin: 0 0 0 10px;
+      }
+      .zipcode_form{
+        width: 22.5%;
+      }
+      #card_name{
+        width: 98.5%;
+      }
+      #card_number{
+        width: 47%;
+        margin: 0 15px 0 0;
+      }
+      #card_date{
+        width: 20%;
+      }
+      #card_ccv{
+        width: 22.5%;
+      }
   /* Main Content Speakers */
     .speakers_main{
       display: flex;
@@ -2402,6 +2399,34 @@ footer{
       height: auto;
     }
 
+/* registration checkout and forms container*/
+.registration_forms{
+  width: 80%;
+}
+  .checkout_window{
+    width: 84.5%;
+  }
+
+/*Shipping Address*/
+    .state_form{
+      width: 21.75%;
+      margin: 0 0 0 13px;
+    }
+    .zipcode_form{
+      width: 21%;
+      margin: 0 0 0 0;
+    }
+    #card_number{
+      margin: 0 0px 0 0;
+    }
+    #card_date{
+      width: 21.75%;
+      margin: 0 0 0 18px;
+    }
+    #card_ccv{
+      width: 20%;
+    }
+
 /* Main Content Speakers */
   .speakers_main{
     display: flex;
@@ -2640,7 +2665,39 @@ footer{
     text-decoration: none;
     cursor: pointer;
   }
+  .info_about_devcon h1{
+    font-size: 50px;
+  }
 }
+
+@media screen and (max-width: 791px) {
+  /*Nav*/
+  .info_nav_text li p{
+   display:block;
+   color: #E83D4D;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   margin-top: 5px;
+   margin-bottom: 0px;
+   font-size: 22px;
+   font-weight: 800;
+  }
+
+  .info_nav_text li a{
+   display:block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   margin-top: 5px;
+   margin-bottom: 0px;
+   font-size: 22px;
+   font-weight: 400;
+  }
+
+
+  }
 
 @media screen and (max-width: 776px) {
     /* Tablet Large */
@@ -2671,7 +2728,54 @@ footer{
      font-size: 22px;
      font-weight: 400;
     }
+/* registration checkout and forms container*/
+.registration_forms{
+  width: 80%;
+}
 
+  .checkout_window{
+    width: 83.5%;
+  }
+
+/*Shipping Address*/
+  .first_name_form{
+    width: 47%;
+  }
+  .last_name_form{
+    width: 47%;
+  }
+  .address_form{
+    width: 98.25%;
+  }
+  .city_form{
+    width: 47%;
+  }
+  .state_form{
+    width: 20%;
+    margin: 0 0 0 12px;
+  }
+
+  .zipcode_form{
+    width: 22%;
+  }
+
+  #card_name{
+    width: 98.25%;
+  }
+
+  #card_number{
+    width: 48%;
+    margin: 0 15px 0 0;
+  }
+
+  #card_date{
+    width: 20%;
+    margin: 0 2px 0 0px;
+  }
+
+  #card_ccv{
+    width: 21%;
+  }
 /* Main Content Speakers */
   .speakers_main{
     display: flex;
@@ -3000,10 +3104,10 @@ footer{
       height: auto;
     }
 
-    /* Register Main Content */
-    .registration_passes_box{
-      margin: 40px 10px 40px 10px;
-    }
+/* Register Main Content */
+.registration_passes_box{
+  margin: 40px 10px 40px 10px;
+}
 
 /* Main Content Speakers */
   .speakers_main{
@@ -3508,24 +3612,62 @@ footer{
   .info_nav_text li a{
    font-size: 15px;
   }
-  /* Register Main Content */
-  .registration_passes_box{
-    width: 250px;
-    height: 350px;
+/* Register Main Content */
+.registration_passes_box{
+  width: 250px;
+  height: 350px;
+}
+.registration_passes_header {
+  top: -50px;
+}
+  #pass_3w{
+    top: -30px !important;
   }
-  .registration_passes_header {
-    top: -50px;
+.registration_passes_button {
+  bottom: -50px;
+}
+  #pass_3w_button{
+    bottom: -25px !important;
   }
-    #pass_3w{
-      top: -30px !important;
-    }
-  .registration_passes_button {
-    bottom: -50px;
+  /*Shipping Address*/
+  .first_name_form{
+    width: 47%;
   }
-    #pass_3w_button{
-      bottom: -25px !important;
-    }
+  .last_name_form{
+    width: 47%;
+  }
+  .address_form{
+    width: 98.25%;
+  }
+  .city_form{
+    width: 47%;
+  }
+  .state_form{
+    width: 20%;
+    margin: 0 0 0 5px;
+  }
 
+  .zipcode_form{
+    width: 23%;
+  }
+
+  #card_name{
+    width: 98.25%;
+  }
+
+  #card_number{
+    width: 48%;
+    margin: 0 10px 0 0;
+  }
+
+  #card_date{
+    width: 20.5%;
+    margin: 0 2px 0 0px;
+  }
+
+  #card_ccv{
+    width: 21.5%;
+  }
 /* Main Content Speakers */
   .speakers_main{
     display: flex;
@@ -3783,7 +3925,7 @@ footer{
     display: relative;
     width: auto;
     height: 35px;
-    margin: 50px auto 0 auto;
+    margin: 40px auto 0 auto;
     cursor: pointer;
   }
 
@@ -3830,7 +3972,6 @@ footer{
         font-size: 24px;
 
       }
-
   .nav_bar{
     align-items: center;
     width: 90%;
@@ -3847,28 +3988,23 @@ footer{
     margin: 0 auto 0 auto;
     transition: 0.4s;
   }
-
   .hero_section{
     display:none;
   }
-
   .hero_section_iphone{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px auto 25px auto;
   }
-
   .passes{
     display: flex;
     flex-direction: column;
   }
-
   .speakers{
     display: flex;
     flex-direction: column;
   }
-
   .main_content_boxes{
     display: flex;
     flex-direction: column;
@@ -3880,7 +4016,6 @@ footer{
     background-color: #2C4F63;
     border-radius: 50px;
   }
-
   .main_content_box_header,
   .main_content_box_header_img {
     position: relative;
@@ -3891,11 +4026,9 @@ footer{
     font-size: 36px;
     font-weight: 400;
   }
-
   .main_content_box_header_img {
     top: -25px;
   }
-
   .main_content_box_buttons,
   .main_content_box_buttons_speaker {
     position: relative;
@@ -3910,19 +4043,16 @@ footer{
     border-radius: 20px;
     border-color: transparent;
   }
-
   .main_content_box_buttons_speaker{
     font-size: 25px;
     bottom: -25px;
   }
-
   .main_content_box_img{
     width:223px;
     height:223px;
     border-radius: 30px;
     border-color: transparent;
   }
-
   .main_content_button,
   .main_content_button_speaker{
     margin: 0 auto;
@@ -3938,32 +4068,85 @@ footer{
     line-height: normal;
     color: white;
   }
-
   .main_content_button_speaker{
     margin: 0 auto 40px auto;
   }
+/* Register Main Content */
+.registration_passes_box{
+  margin: 10px auto 10px auto;
+  width: 30%;
+  height: 200px;
+  border-radius:30px;
+}
 
-  /* Register Main Content */
-  .registration_passes_box{
-    margin: 40px auto 40px auto;
-    width: 345px;
-    height: 434px;
+.registration_passes_header {
+  top: -30px;
+  margin: 100px auto 100px auto;
+  font-size: 18px;
+
+}
+  #pass_3w{
+    top: -20px !important;
   }
 
-  .registration_passes_header {
-    top: -80px;
+.registration_passes_button {
+  width: 70%;
+  height: 50px;
+  padding: 10px;
+  font-size: 15px;
+  bottom: 70px;
+}
+
+#pass_3w_button{
+  bottom: 80px !important;
+}
+  /* registration checkout and forms container*/
+  .registration_forms{
+    width: 90%;
   }
-    #pass_3w{
-      top: -55px !important;
+    .checkout_window{
+      width: 90%;
+      padding: 50px 20px 50px 20px;
+    }
+  /*Shipping Address*/
+    .first_name_form{
+      width: 46%;
+    }
+    .last_name_form{
+      width: 46%;
+    }
+    .address_form{
+      width: 98%;
+    }
+    .city_form{
+      width: 46%;
+    }
+    .state_form{
+      width: 20%;
+      margin: 0 0 0 7px;
     }
 
-    #pass_3w_button{
-      bottom: -55px !important;
+    .zipcode_form{
+      width: 21%;
     }
 
-  .registration_passes_button {
-    bottom: -80px;
-  }
+    #card_name{
+      width: 98%;
+    }
+
+    #card_number{
+      width: 46.5%;
+      margin: 0 13px 0 0;
+    }
+
+    #card_date{
+      width: 20%;
+      margin: 0 2px 0 0px;
+    }
+
+    #card_ccv{
+      width: 20%;
+    }
 
 /* Main Content Speakers */
   .speakers_main{
@@ -4289,12 +4472,6 @@ footer{
   }
 }
 
-@media screen and (max-width: 585px) {
-  .hamburger_menu{
-    margin: 40px auto 0 auto;
-  }
-}
-
 @media screen and (max-width: 450px) {
   .hamburger_menu{
     margin: 30px auto 0 auto;
@@ -4428,26 +4605,133 @@ footer{
     flex-direction: column;
   }
 
-  /* Register Main Content */
-  .registration_passes_box{
-    margin: 40px auto 40px auto;
-    width: 345px;
-    height: 434px;
+/* Register Main Content */
+.registration_passes_box{
+  margin: 10px auto 10px auto;
+  width: 40%;
+  height: 190px;
+  border-radius:30px;
+}
+
+.registration_passes_header {
+  top: -30px;
+  margin: 100px auto 100px auto;
+  font-size: 18px;
+
+}
+  #pass_3w{
+    top: -20px !important;
   }
 
-  .registration_passes_header {
-    top: -80px;
+.registration_passes_button {
+  width: 70%;
+  height: 50px;
+  padding: 10px;
+  font-size: 15px;
+  bottom: 70px;
+  border-radius: 15px;
+}
+
+  #pass_3w_button{
+    bottom: 80px !important;
   }
-    #pass_3w{
-      top: -55px !important;
-    }
 
-    #pass_3w_button{
-      bottom: -55px !important;
-    }
+/* registration checkout and forms container*/
+.registration_forms{
+  width: 90%;
+}
+  .checkout_window{
+    width: 88%;
+    padding: 50px 20px 50px 20px;
+  }
+/*Shipping Address*/
+  .first_name_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .last_name_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .address_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .city_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .state_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .zipcode_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_name{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_number{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_date{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_ccv{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
 
-  .registration_passes_button {
-    bottom: -80px;
+  .checkbox{
+    font-size: 13px;
+  }
+  #checkbox1{
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px 0px 0px;
+  }
+  .checkbox input[type=checkbox], input[type=radio]{
+    bottom: 7px;
+  }
+  .checkout_button {
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 15px;
   }
 
 /* Main Content Speakers */
@@ -4802,26 +5086,111 @@ height: 250px;
     font-size: 30px;
   }
 
-  /* Register Main Content */
-  .registration_passes_box{
-    margin: 40px auto 40px auto;
-    width: 280px;
-    height: 350px;
+/* Register Main Content */
+.registration_passes_box{
+  margin: 10px auto 10px auto;
+  width: 40%;
+  height: 170px;
+  border-radius: 30px;
+}
+
+.registration_passes_header {
+  top: -20px;
+  margin: 100px auto 100px auto;
+  font-size: 18px;
+
+}
+  #pass_3w{
+    top: -10px !important;
   }
 
-  .registration_passes_header {
-    top: -50px;
+.registration_passes_button {
+  width: 70%;
+  height: 50px;
+  padding: 10px;
+  font-size: 15px;
+  bottom: 80px;
+  border-radius: 15px;
+}
+
+#pass_3w_button{
+  bottom: 90px !important;
+}
+/* registration checkout and forms container*/
+.checkout_window{
+  width: 88%;
+  padding: 50px 20px 50px 20px;
+}
+  /*Shipping Address*/
+  .first_name_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
   }
-    #pass_3w{
-      top: -25px !important;
-    }
-
-    #pass_3w_button{
-      bottom: -25px !important;
-    }
-
-  .registration_passes_button {
-    bottom: -45px;
+  .last_name_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .address_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .city_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .state_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .zipcode_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_name{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_number{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_date{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_ccv{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
   }
 
 /* Main Content Speakers */
@@ -5079,27 +5448,118 @@ height: 250px;
     font-size: 30px;
   }
 
-  /* Register Main Content */
-  .registration_passes_box{
-    margin: 40px auto 40px auto;
-    width: 90%;
-    height: auto;
+/* Register Main Content */
+.registration_passes_box{
+  margin: 10px auto 10px auto;
+  width: 40%;
+  height: 142px;
+  border-radius:30px;
+}
+
+.registration_passes_header {
+  top: -10px;
+  margin: 100px auto 100px auto;
+  font-size: 18px;
+
+}
+  #pass_3w{
+    top: -5px !important;
   }
 
-  .registration_passes_header {
-    top: -50px;
-    margin: 100px auto 100px auto;
+.registration_passes_button {
+  width: 70%;
+  height: 50px;
+  padding: 10px;
+  font-size: 15px;
+  bottom: 90px;
+  border-radius: 15px;
+}
+
+  #pass_3w_button{
+    bottom: 100px !important;
   }
-    #pass_3w{
-      top: -15px !important;
-    }
 
-    #pass_3w_button{
-      bottom: 45px !important;
-    }
+/* registration checkout and forms container*/
+.registration_forms h1{
+  margin-bottom: 5px;
+}
 
-  .registration_passes_button {
-    bottom: 45px;
+.checkout_window{
+  width: 92%;
+  padding: 50px 10px 50px 10px;
+  font-size: 13px;
+}
+
+  /*Shipping Address*/
+  .first_name_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .last_name_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .address_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .city_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .state_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .zipcode_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_name{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_number{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_date{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_ccv{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
   }
 
 /* Main Content Speakers */
@@ -5331,35 +5791,256 @@ height: 200px;
 }
 }
 
+@media screen and (max-width: 275px) {
+/* Register Main Content */
+.registration_passes_box{
+  margin: 10px auto 10px auto;
+  width: 40%;
+  height: 142px;
+  border-radius:30px;
+}
+
+.registration_passes_header {
+  top: -10px;
+  margin: 100px auto 100px auto;
+  font-size: 13px;
+
+}
+  #pass_3w{
+    top: -5px !important;
+  }
+
+.registration_passes_button {
+  width: 70%;
+  height: 50px;
+  padding: 10px;
+  font-size: 13px;
+  bottom: 90px;
+  border-radius: 15px;
+}
+
+  #pass_3w_button{
+    bottom: 100px !important;
+  }
+
+/* registration checkout and forms container*/
+.registration_forms h1{
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.checkout_window{
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  font-size: 13px;
+}
+
+  /*Shipping Address*/
+  .first_name_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .last_name_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .address_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .city_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .state_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .zipcode_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_name{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_number{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_date{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_ccv{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+
+.checkbox{
+  font-size: 15px;
+}
+#checkbox1{
+  width: 17px;
+  height: 17px;
+}
+
+.checkout_button{
+  width: 40%;
+  height: 60px;
+  font-size: 18px;
+  border-radius: 18px;
+}
+}
+
 @media screen and (max-width: 260px) {
   /* Register Main Content */
   .registration_passes_box{
-    margin: 40px auto 40px auto;
-    width: 90%;
-    height: auto;
+    margin: 10px auto 10px auto;
+    width: 65%;
+    height: 175px;
   }
 
   .registration_passes_header {
-    top: -50px;
+    top: -20px;
     margin: 100px auto 100px auto;
-    font-size: 20px;
+    font-size: 15px;
   }
     #pass_3w{
-      top: -15px !important;
+      top: -5px !important;
       width: 75%;
     }
 
     #pass_3w_button{
-      bottom: 45px !important;
+      bottom: 95px !important;
     }
 
   .registration_passes_button {
-    bottom: 45px;
+    bottom: 85px;
     width: 70%;
     height: 55px;
-    font-size: 20px;
+    font-size: 15px;
   }
-
+/* registration checkout and forms container*/
+.checkout_window{
+  width: 100%;
+  padding: 40px 0px 40px 0px;
+  font-size: 12px;
+}
+.checkout_window button{
+  font-size: 10px;
+}
+.registration_forms h1{
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+  /*Shipping Address*/
+  .first_name_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .last_name_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .address_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .city_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .state_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .zipcode_form{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_name{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_number{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_date{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  #card_ccv{
+    width: 97%;
+    margin: 0 auto 12px auto;
+    padding-left: 0px;
+    padding: 0 0 0 10px;
+    float:none;
+  }
+  .checkout_button{
+    width: 50%;
+    height: 60px;
+    font-size: 14px;
+    border-radius: 18px;
+  }
 /* Speakers Main Content */
 .speakers_main{
   display: flex;
@@ -5599,6 +6280,88 @@ height: 200px;
   .info_about_devcon p{
     color: #ffffff;
     font-size: 14px;
+  }
+
+/* Footer*/
+footer{
+  background-color: #E83D4D;
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+  display: flex;
+  padding: 10px;
+}
+
+  #footer_legal{
+  margin-top: 50px;
+  }
+
+.footer_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  background-color: #E83D4D;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+
+.footer_sitemap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto 0 auto;
+  width: 100%;
+  height: 200px;
+}
+
+    .footer_sitemap ul{
+        width:210px;
+        list-style: none;
+        margin-top: -10px;
+        margin-left: -20px;
+    }
+
+      .footer_sitemap li{
+          float:left;
+          height:15px;
+          width:90px;
+      }
+      .footer_sitemap li:nth-child(even){
+          margin-right:0;
+      }
+
+      .footer_sitemap a{
+        text-decoration: none;
+        color: #ffffff;
+      }
+
+      .footer_sitemap a:hover{
+        text-decoration: none;
+        color: #091028;
+
+      }
+
+  .footer_contact{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 200px;
+  }
+
+  .social_media{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 200px;
   }
 }
 
