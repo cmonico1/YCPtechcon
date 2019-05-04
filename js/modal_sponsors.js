@@ -91,7 +91,7 @@ $(document).ready(function(){
     $(".sponsor_modal").css({"display": "none"});
   });
 
-  $(".close_modal").click(function(){ /* Closes Modal By X */
+  $(".sponsors_modal").click(function(){ /* Closes Modal By X */
     $(".sponsors_modal").css({"display": "none"});
   });
 });
