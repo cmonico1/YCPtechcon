@@ -708,7 +708,7 @@ section.main_content {
     position: fixed;/* Stay in place */
     z-index: 1;
     padding-top: 100px;
-    left: 0;
+    left: -20px;
     top: -40px;
     width: 100%;
     height: 100%;
@@ -729,54 +729,90 @@ section.main_content {
     margin: 0 25px 0 25px;
   }
 
-  #speakers_modal_content_2{
-    padding: 60px 20px 40px 20px;
-  }
-  #speakers_modal_content_3{
-    padding: 85px 20px 40px 20px;
-  }
-  #speakers_modal_content_4{
-    padding: 70px 20px 40px 20px;
-  }
-    #speakers_modal_content_4 img{
-      margin-top: 20px;
-    }
-    #speakers_modal_content_4 button{
-      margin-bottom: 20px !important;
-    }
-  #speakers_modal_content_5{
-    padding: 60px 20px 40px 20px;
-  }
-  #speakers_modal_content_6{
-    padding: 60px 20px 40px 20px;
-  }
-  #speakers_modal_content_10{
-    padding: 58px 20px 40px 20px;
-  }
-  #speakers_modal_content_13{
-    padding: 45px 20px 30px 20px;
-  }
-  #speakers_modal_content_15{
-    padding: 60px 20px 40px 20px;
-  }
-  #speakers_modal_content_16{
-    padding: 50px 20px 40px 20px;
-  }
-  #speakers_modal_content_18{
-    padding: 85px 20px 20px 20px;
-  }
-  #speakers_modal_content_19{
-    padding: 58px 20px 20px 20px;
-  }
-  #speakers_modal_content_20{
-    padding: 67px 20px 40px 20px;
-  }
-  #speakers_modal_content_21{
-    padding: 58px 20px 40px 20px;
-  }
-  #speakers_modal_content_22{
-    padding: 62px 20px 40px 20px;
-  }
+#speakers_modal_content_1{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_2{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_3{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_4{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_5{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_6{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_7{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_8{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_9{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_10{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_11{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_13{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_14{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_15{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_16{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_17{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_18{
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_19{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_20{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_21{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_22{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
 
     .speakers_modal_content img{
       margin-top: 50px;
@@ -1037,7 +1073,9 @@ section.main_content {
   border-radius: 25px;
   border-color: transparent;
 }
-
+  .legal_dropdown_bar h1{
+    font-size: 30px;
+  }
 .legal_dropdown_content{
   padding: 30px 30px 30px 30px;
 }
@@ -1052,7 +1090,6 @@ section.main_content {
   border-radius: 25px;
   border-color: transparent;
 }
-
   #legal_dropdown_1{
     display: none;
   }
@@ -1252,60 +1289,23 @@ footer{
 /* Main Content Speakers */
   /*Modal*/
   /* The Modal (background)*/
-  #speakers_modal_content_1{
-    padding: 85px 20px 40px 20px;
-  }
-  #speakers_modal_content_2{
-    padding: 53px 20px 40px 20px;
-  }
-  #speakers_modal_content_3{
-    padding: 80px 20px 40px 20px;
-  }
-  #speakers_modal_content_4{
-    padding: 60px 20px 40px 20px;
-  }
-  #speakers_modal_content_5{
-    padding: 60px 20px 40px 20px;
-  }
-  #speakers_modal_content_6{
-    padding: 60px 20px 40px 20px;
-  }
-  #speakers_modal_content_8{
-    padding: 70px 20px 40px 20px;
-  }
-  #speakers_modal_content_10{
-    padding: 50px 20px 40px 20px;
-  }
-  #speakers_modal_content_11{
-    padding: 60px 20px 40px 20px;
-  }
-  #speakers_modal_content_13{
-    padding: 45px 20px 30px 20px;
-  }
-  #speakers_modal_content_15{
-    padding: 60px 20px 40px 20px;
-  }
-  #speakers_modal_content_16{
-    padding: 50px 20px 40px 20px;
-  }
-  #speakers_modal_content_17{
-    padding: 65px 20px 20px 20px;
-  }
-  #speakers_modal_content_18{
-    padding: 85px 20px 20px 20px;
-  }
-  #speakers_modal_content_19{
-    padding: 50px 20px 20px 20px;
-  }
-  #speakers_modal_content_20{
-    padding: 67px 20px 40px 20px;
-  }
-  #speakers_modal_content_21{
-    padding: 58px 20px 40px 20px;
-  }
-  #speakers_modal_content_22{
-    padding: 58px 20px 40px 20px;
-  }
+
+    .speakers_text h1{
+      font-size: 60px;
+      line-height: 60px;
+      margin: 30px 0px;
+    }
+    .speakers_text h2{
+      font-size: 30px;
+      line-height: 30px;
+    }
+    .speakers_text h3{
+      font-size: 30px;
+      line-height: 30px;
+    }
+    .speakers_text p{
+      font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 1650px) {
@@ -1337,37 +1337,107 @@ footer{
   /* Main Content Speakers */
     /*Modal*/
     /* The Modal (background)*/
+    #speakers_modal_content_1{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_2{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_3{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
     #speakers_modal_content_4{
-      padding: 53px 20px 40px 20px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_5{
-      padding: 52px 20px 40px 20px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
-
+    #speakers_modal_content_6{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_7{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_8{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_9{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_10{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_11{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
     #speakers_modal_content_13{
-      padding: 40px 20px 30px 20px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_14{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_15{
-      padding: 50px 20px 40px 20px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_16{
-      padding: 44px 20px 40px 20px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_17{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_18{
-      padding: 80px 20px 20px 20px;
+      margin: 5px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_19{
-      padding: 42px 20px 20px 20px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_20{
-      padding: 55px 20px 40px 20px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_21{
-      padding: 58px 20px 40px 20px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_22{
-      padding: 55px 20px 40px 20px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
+
+      .speakers_text h1{
+        font-size: 60px;
+        line-height: 60px;
+        margin: 20px 0px;
+      }
+      .speakers_text h2{
+        font-size: 30px;
+        line-height: 30px;
+      }
+      .speakers_text h3{
+        font-size: 30px;
+        line-height: 30px;
+      }
+      .speakers_text p{
+        font-size: 18px;
+      }
 }
 
 @media screen and (max-width: 1440px) {
@@ -1497,7 +1567,7 @@ footer{
       position: fixed;/* Stay in place */
       z-index: 1;
       padding-top: 100px;
-      left: 0;
+      left: -20px;
       top: -40px;
       width: 100%;
       height: 100%;
@@ -1518,60 +1588,90 @@ footer{
       margin: 0 25px 0 25px;
     }
 
-      #speakers_modal_content_1{
-        padding: 75px 20px 40px 20px;
-      }
-      #speakers_modal_content_2{
-        padding: 45px 20px 40px 20px;
-      }
-      #speakers_modal_content_3{
-        padding: 75px 20px 40px 20px;
-      }
-      #speakers_modal_content_4{
-        padding: 43px 20px 40px 20px;
-      }
-      #speakers_modal_content_5{
-        padding: 53px 20px 40px 20px;
-      }
-      #speakers_modal_content_6{
-        padding: 53px 20px 40px 20px;
-      }
-      #speakers_modal_content_8{
-        padding: 60px 20px 40px 20px;
-      }
-      #speakers_modal_content_9{
-        padding: 60px 20px 40px 20px;
-      }
-      #speakers_modal_content_10{
-        padding: 43px 20px 40px 20px;
-      }
-      #speakers_modal_content_11{
-        padding: 55px 20px 40px 20px;
-      }
-      #speakers_modal_content_13{
-        padding: 40px 20px 30px 20px;
-      }
-      #speakers_modal_content_15{
-        padding: 50px 20px 40px 20px;
-      }
-      #speakers_modal_content_16{
-        padding: 40px 20px 40px 20px;
-      }
-      #speakers_modal_content_17{
-        padding: 65px 20px 20px 20px;
-      }
-      #speakers_modal_content_19{
-        padding: 40px 20px 20px 20px;
-      }
-      #speakers_modal_content_20{
-        padding: 55px 20px 40px 20px;
-      }
-      #speakers_modal_content_21{
-        padding: 52px 20px 40px 20px;
-      }
-      #speakers_modal_content_22{
-        padding: 48px 20px 40px 20px;
-      }
+    #speakers_modal_content_1{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_2{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_3{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_4{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_5{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_6{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_7{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_8{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_9{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_10{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_11{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_13{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_14{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_15{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_16{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_17{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_18{
+      margin: 5px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_19{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_20{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_21{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_22{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
 
     .speakers_modal_content img{
       margin-top: 50px;
@@ -1727,6 +1827,136 @@ footer{
     #card_date{
       width: 23.75%;
     }
+
+    /* Main Content Speakers */
+    /*Modal*/
+    /* The Modal (background)*/
+    .speakers_modal {
+      display: none;
+    }
+    /* Modal Content*/
+    .speakers_modal_content{
+      background-color: #2C4F63;
+      margin: auto;
+      padding: 20px;
+      width: 80%;
+      color: #fff;
+    }
+    .speakers_text{
+      margin: 0 25px 0 25px;
+    }
+    #speakers_modal_content_1{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_2{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_3{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_4{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_5{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_6{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_7{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_8{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_9{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_10{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_11{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_13{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_14{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_15{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_16{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_17{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_18{
+      margin: 5px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_19{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_20{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_21{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+    #speakers_modal_content_22{
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
+    }
+
+      .speakers_modal_content img{
+        margin-top: 50px;
+      }
+
+      .speakers_modal_img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      }
+
+      .speakers_modal_content h1{
+        font-size: 50px;
+        margin: 50px 0 0 0;
+      }
+
+      .speakers_modal_content h2{
+        font-size: 26px;
+      }
+
+      .speakers_modal_content h3{
+        font-size: 26px;
+      }
+
+      .speakers_modal_content p{
+        font-size: 18px;
+      }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -1862,72 +2092,90 @@ footer{
 .speakers_text{
   margin: 0 25px 0 25px;
 }
-  #speakers_modal_content_1{
-    padding: 105px 20px 40px 20px;
-  }
-  #speakers_modal_content_2{
-    padding: 65px 20px 40px 20px;
-  }
-  #speakers_modal_content_3{
-    padding: 110px 20px 40px 20px;
-  }
-  #speakers_modal_content_4{
-    padding: 65px 20px 20px 20px;
-  }
-  #speakers_modal_content_5{
-    padding: 80px 20px 40px 20px;
-  }
-  #speakers_modal_content_6{
-    padding: 80px 20px 40px 20px;
-  }
-  #speakers_modal_content_7{
-    padding: 90px 20px 40px 20px;
-  }
-  #speakers_modal_content_8{
-    padding: 100px 20px 40px 20px;
-  }
-  #speakers_modal_content_9{
-    padding: 100px 20px 40px 20px;
-  }
-  #speakers_modal_content_10{
-    padding: 70px 20px 40px 20px;
-  }
-  #speakers_modal_content_11{
-    padding: 85px 20px 40px 20px;
-  }
-  #speakers_modal_content_12{
-    padding: 105px 20px 40px 20px;
-  }
-  #speakers_modal_content_13{
-    padding: 56px 20px 30px 20px;
-  }
-  #speakers_modal_content_14{
-    padding: 110px 20px 30px 20px;
-  }
-  #speakers_modal_content_15{
-    padding: 75px 20px 40px 20px;
-  }
-  #speakers_modal_content_16{
-    padding: 55px 20px 40px 20px;
-  }
-  #speakers_modal_content_17{
-    padding: 95px 20px 20px 20px;
-  }
-  #speakers_modal_content_18{
-    padding: 115px 20px 20px 20px;
-  }
-  #speakers_modal_content_19{
-    padding: 60px 20px 20px 20px;
-  }
-  #speakers_modal_content_20{
-    padding: 85px 20px 40px 20px;
-  }
-  #speakers_modal_content_21{
-    padding: 85px 20px 40px 20px;
-  }
-  #speakers_modal_content_22{
-    padding: 70px 20px 40px 20px;
-  }
+#speakers_modal_content_1{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_2{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_3{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_4{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_5{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_6{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_7{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_8{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_9{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_10{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_11{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_13{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_14{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_15{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_16{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_17{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_18{
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_19{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_20{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_21{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+#speakers_modal_content_22{
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+}
 
   .speakers_modal_content img{
     margin-top: 50px;
@@ -2113,7 +2361,7 @@ footer{
       position: fixed;/* Stay in place */
       z-index: 1;
       padding-top: 100px;
-      left: 0;
+      left: -20px;
       top: -40px;
       width: 100%;
       height: 100%;
@@ -2135,92 +2383,88 @@ footer{
     }
 
     #speakers_modal_content_1{
-      margin-top: 20px;
-      padding: 20px 0px 10px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_2{
-      margin-top: 20px;
-      padding: 30px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_3{
-      margin-top: 20px;
-      padding: 20px 0px 20px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_4{
-      margin-top: 6px;
-      padding: 30px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_5{
-      margin-top: 35px;
-      padding: 30px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_6{
-      margin-top: 30px;
-      padding: 30px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_7{
-      margin-top: 35px;
-      padding: 30px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_8{
-      margin-top: 40px;
-      padding: 30px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_9{
-      margin-top: 40px;
-      padding: 30px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_10{
-      margin-top: 20px;
-      padding: 30px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_11{
-      margin-top: 30px;
-      padding: 30px 0px 40px 0px;
-    }
-    #speakers_modal_content_12{
-      margin-top: 40px;
-      padding: 30px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_13{
-      margin-top: 25px;
-      padding: 10px 0px 10px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_14{
-      margin-top: 25px;
-      padding: 60px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_15{
-      margin-top: 25px;
-      padding: 30px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_16{
-      margin-top: 10px;
-      padding: 30px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_17{
-      margin-top: 30px;
-      padding: 30px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_18{
-      margin-top: 20px;
-      padding: 80px 0px 40px 0px;
+      margin: 5px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_19{
-      margin-top: 7px;
-      padding: 30px 0px 10px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_20{
-      margin-top: 30px;
-      padding: 30px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_21{
-      margin-top: 30px;
-      padding: 30px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
     #speakers_modal_content_22{
-      margin-top: 20px;
-      padding: 30px 0px 40px 0px;
+      margin: 20px auto 0 auto;
+      padding: 40px 20px 40px 20px;
     }
 
       .speakers_modal_content img{
@@ -2314,6 +2558,8 @@ footer{
   border-radius: 50px;
   border-color: transparent;
   background-color: #E83D4D;
+  overflow-y:scroll;
+
 }
 
 #table_body_3{
@@ -2473,7 +2719,7 @@ footer{
     position: fixed;/* Stay in place */
     z-index: 1;
     padding-top: 100px;
-    left: 0;
+    left: -20px;
     top: -40px;
     width: 100%;
     height: 100%;
@@ -2495,92 +2741,88 @@ footer{
   }
 
   #speakers_modal_content_1{
-    margin-top: 15px;
-    padding: 20px 0px 10px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_2{
-    margin-top: 15px;
-    padding: 20px 0px 10px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_3{
-    margin-top: 15px;
-    padding: 20px 0px 10px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_4{
-    margin-top: 6px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_5{
-    margin-top: 35px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_6{
-    margin-top: 30px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_7{
-    margin-top: 35px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_8{
-    margin-top: 40px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_9{
-    margin-top: 40px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_10{
-    margin-top: 20px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_11{
-    margin-top: 30px;
-    padding: 30px 0px 40px 0px;
-  }
-  #speakers_modal_content_12{
-    margin-top: 40px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_13{
-    margin-top: 25px;
-    padding: 10px 0px 10px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_14{
-    margin-top: 25px;
-    padding: 60px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_15{
-    margin-top: 25px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_16{
-    margin-top: 10px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_17{
-    margin-top: 30px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_18{
-    margin-top: 20px;
-    padding: 80px 0px 40px 0px;
+    margin: 5px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_19{
-    margin-top: 7px;
-    padding: 30px 0px 10px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_20{
-    margin-top: 30px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_21{
-    margin-top: 30px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_22{
-    margin-top: 20px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
 
     .speakers_modal_content img{
@@ -2822,7 +3064,7 @@ footer{
     position: fixed;/* Stay in place */
     z-index: 1;
     padding-top: 100px;
-    left: 0;
+    left: -20px;
     top: -40px;
     width: 100%;
     height: 100%;
@@ -2844,92 +3086,88 @@ footer{
   }
 
   #speakers_modal_content_1{
-    margin-top: 50px;
-    padding: 50px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_2{
-    margin-top: 20px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_3{
-    margin-top: 50px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_4{
-    margin-top: 6px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_5{
-    margin-top: 35px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_6{
-    margin-top: 30px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_7{
-    margin-top: 35px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_8{
-    margin-top: 40px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_9{
-    margin-top: 40px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_10{
-    margin-top: 20px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_11{
-    margin-top: 30px;
-    padding: 30px 0px 40px 0px;
-  }
-  #speakers_modal_content_12{
-    margin-top: 40px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_13{
-    margin-top: 25px;
-    padding: 10px 0px 10px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_14{
-    margin-top: 25px;
-    padding: 60px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_15{
-    margin-top: 25px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_16{
-    margin-top: 10px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_17{
-    margin-top: 30px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_18{
-    margin-top: 20px;
-    padding: 80px 0px 40px 0px;
+    margin: 5px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_19{
-    margin-top: 7px;
-    padding: 30px 0px 10px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_20{
-    margin-top: 30px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_21{
-    margin-top: 30px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_22{
-    margin-top: 20px;
-    padding: 30px 0px 40px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
 
     .speakers_modal_content img{
@@ -3155,7 +3393,7 @@ footer{
     position: fixed;/* Stay in place */
     z-index: 1;
     padding-top: 100px;
-    left: 0;
+    left: -20px;
     top: -40px;
     width: 100%;
     height: 100%;
@@ -3177,93 +3415,88 @@ footer{
   }
 
   #speakers_modal_content_1{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_2{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_3{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_4{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_5{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_6{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_7{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_8{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_9{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_10{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_11{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
-  }
-  #speakers_modal_content_12{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_13{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_14{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_15{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_16{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_17{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_18{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 5px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_19{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_20{
-    margin-top: 20px;    margin-top: 20px;
-        padding: 20px 0px 20px 0px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_21{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_22{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
 
     .speakers_modal_content img{
@@ -3401,7 +3634,7 @@ footer{
     position: fixed;/* Stay in place */
     z-index: 1;
     padding-top: 100px;
-    left: 0;
+    left: -20px;
     top: -40px;
     width: 100%;
     height: 100%;
@@ -3423,92 +3656,88 @@ footer{
   }
 
   #speakers_modal_content_1{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_2{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_3{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_4{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_5{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_6{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_7{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_8{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_9{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_10{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_11{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
-  }
-  #speakers_modal_content_12{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_13{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_14{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_15{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_16{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_17{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_18{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 5px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_19{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_20{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_21{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_22{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
 
     .speakers_modal_content img{
@@ -3612,6 +3841,38 @@ footer{
   .info_nav_text li a{
    font-size: 15px;
   }
+
+/* Index */
+    .main_content_box_buttons,
+    .main_content_box_buttons_speaker {
+      bottom: -40px;
+      width: 150px;
+      height: 66px;
+      font-size: 25px;
+    }
+    .main_content_box_buttons_speaker{
+      font-size: 25px;
+      bottom: -25px;
+    }
+  .main_content_button,
+    .main_content_button_speaker{
+      margin: 0 auto;
+      width: 344px;
+      height: 76px;
+      border-radius: 25px;
+      border-color: transparent;
+      background-color: #E83D4D;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: normal;
+      color: white;
+    }
+    .main_content_button_speaker{
+      margin: 0 auto 40px auto;
+    }
+
 /* Register Main Content */
 .registration_passes_box{
   width: 250px;
@@ -3703,7 +3964,7 @@ footer{
     position: fixed;/* Stay in place */
     z-index: 1;
     padding-top: 100px;
-    left: 0;
+    left: -20px;
     top: -40px;
     width: 100%;
     height: 100%;
@@ -3725,92 +3986,88 @@ footer{
   }
 
   #speakers_modal_content_1{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_2{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_3{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_4{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_5{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_6{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_7{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_8{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_9{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_10{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_11{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
-  }
-  #speakers_modal_content_12{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_13{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_14{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_15{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_16{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_17{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_18{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 5px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_19{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_20{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_21{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_22{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
 
     .speakers_modal_content img{
@@ -3997,6 +4254,10 @@ footer{
     align-items: center;
     margin: 0px auto 25px auto;
   }
+
+.learn_more{
+  margin: 0 0 40px 0;
+}
   .passes{
     display: flex;
     flex-direction: column;
@@ -4183,7 +4444,7 @@ footer{
     position: fixed;/* Stay in place */
     z-index: 1;
     padding-top: 100px;
-    left: 0;
+    left: -20px;
     top: -40px;
     width: 100%;
     height: 100%;
@@ -4205,92 +4466,88 @@ footer{
   }
 
   #speakers_modal_content_1{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_2{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_3{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_4{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_5{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_6{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_7{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_8{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_9{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_10{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_11{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
-  }
-  #speakers_modal_content_12{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_13{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_14{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_15{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_16{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_17{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_18{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 5px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_19{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_20{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_21{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
   #speakers_modal_content_22{
-    margin-top: 20px;
-    padding: 20px 0px 20px 0px;
+    margin: 20px auto 0 auto;
+    padding: 40px 20px 40px 20px;
   }
 
     .speakers_modal_content img{
@@ -4479,6 +4736,55 @@ footer{
 
   .learn_more button{
     width: 95%;
+  }
+
+  .speakers_modal_content h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 42px;
+    margin: 25px 0 0 0;
+  }
+
+  .speakers_modal_content h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+
+  .speakers_modal_content h3{
+    font-family: Roboto;
+    font-style: 300;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 20px;
+  }
+
+  .speakers_modal_content p{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .speakers_modal_content button{
+    width: 225px;
+    height: 62px;
+    background-color: #e83d4d;
+    border: none;
+    border-radius: 25px;
+    font-size: 29px;
+    font-weight: 400;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto 60px auto;
+    text-decoration: none !important;
   }
 
 }
@@ -4769,7 +5075,7 @@ height: 250px;
   position: fixed;/* Stay in place */
   z-index: 1;
   padding-top: 100px;
-  left: 0;
+  left: -20px;
   top: -40px;
   width: 100%;
   height: 100%;
@@ -4791,92 +5097,111 @@ height: 250px;
 }
 
 #speakers_modal_content_1{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_2{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_3{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_4{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_5{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_6{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_7{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_8{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_9{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_10{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_11{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_12{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_13{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_14{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_15{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_16{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_17{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_18{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+
 }
 #speakers_modal_content_19{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_20{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_21{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 #speakers_modal_content_22{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -15px;
 }
 
   .speakers_modal_content img{
@@ -4894,24 +5219,24 @@ height: 250px;
     font-style: normal;
     font-size: 40px;
     font-weight: 600;
-    line-height: 0px;
-    margin: 60px 0 0 0;
+    line-height: 42px;
+    margin: 25px 0 0 0;
   }
 
   .speakers_modal_content h2{
     font-family: Roboto;
     font-style: normal;
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 400;
-    line-height: 2;
+    line-height: 23px;
   }
 
   .speakers_modal_content h3{
     font-family: Roboto;
     font-style: 300;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 100;
-    line-height: 0;
+    line-height: 20px;
   }
 
   .speakers_modal_content p{
@@ -4922,7 +5247,7 @@ height: 250px;
   }
 
   .speakers_modal_content button{
-    width: 279px;
+    width: 225px;
     height: 62px;
     background-color: #e83d4d;
     border: none;
@@ -5228,7 +5553,7 @@ height: 250px;
   position: fixed;/* Stay in place */
   z-index: 1;
   padding-top: 100px;
-  left: 0;
+  left: -20px;
   top: -40px;
   width: 100%;
   height: 100%;
@@ -5250,92 +5575,108 @@ height: 250px;
 }
 
 #speakers_modal_content_1{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_2{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_3{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_4{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_5{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_6{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_7{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_8{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_9{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_10{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_11{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
-}
-#speakers_modal_content_12{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_13{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_14{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_15{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_16{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_17{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_18{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_19{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_20{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_21{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 #speakers_modal_content_22{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 10px auto 0 auto;
+  padding: 40px 20px 40px 20px;
+  left: -13px;
 }
 
   .speakers_modal_content img{
@@ -5442,6 +5783,25 @@ height: 250px;
   .hamburger_menu{
     margin: 13px auto 0 auto;
   }
+
+  /* Index */
+    .learn_more_text h1{
+      color: #ffffff;
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+    .learn_more_text h2{
+      color: #ffffff;
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    .learn_more_text p{
+      color: #ffffff;
+      font-size: 18px;
+    }
+
   .main_content_button,
   .main_content_button_speaker{
     width: 90%;
@@ -5597,7 +5957,7 @@ height: 200px;
   position: fixed;/* Stay in place */
   z-index: 1;
   padding-top: 100px;
-  left: 0;
+  left: -20px;
   top: -40px;
   width: 100%;
   height: 100%;
@@ -5619,92 +5979,88 @@ height: 200px;
 }
 
 #speakers_modal_content_1{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_2{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_3{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_4{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_5{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_6{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_7{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_8{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_9{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_10{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_11{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
-}
-#speakers_modal_content_12{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_13{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_14{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_15{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_16{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_17{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_18{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_19{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_20{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_21{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_22{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 
   .speakers_modal_content img{
@@ -5773,6 +6129,10 @@ height: 200px;
     .speakers_modal_content a:link{
       text-decoration: none !important;
     }
+    .speakers_hover_on p{
+      font-size: 35px;
+      padding: 40px 0;
+    }
 
 /* The Close Button*/
 .close_modal {
@@ -5792,6 +6152,97 @@ height: 200px;
 }
 
 @media screen and (max-width: 275px) {
+/* Info Page */
+.learn_more{
+  margin: 0 0 20px 0;
+}
+
+.main_content_boxes{
+  width: 90%;
+  height: auto;
+  margin: 20px auto 20px auto;
+}
+
+.main_content_box_header{
+  font-size: 20px;
+  top: 0px;
+  margin: 40px 0 20px 0;
+}
+
+.main_content_box_buttons,
+.main_content_box_buttons_speaker {
+  bottom: 0px;
+  width: 100%;
+  height: 76px;
+  padding: 0 40px 0 40px;
+  margin: 20px 0 40px 0;
+  font-size: 18px;
+}
+
+.main_content_box_buttons_speaker{
+  width: 80%;
+  margin: 0px 0 40px 0;
+  padding: 0 auto;
+  font-size: 18px;
+  bottom: 0px;
+}
+
+.main_content_button,
+.main_content_button_speaker{
+  width: 90%;
+  font-size: 20px;
+  margin: 20px auto 20px auto;
+}
+
+.main_content_button_speaker{
+  margin: 0 auto 40px auto;
+}
+
+.main_content_box_img{
+  width: 70%;
+  height: auto;
+  top: 0px;
+  margin: 60px 0 20px 0;
+}
+
+  .learn_more_text h1{
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .learn_more_text h2{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .learn_more_text p{
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .learn_more button{
+    margin: 40px auto 40px auto;
+    width: 100%;
+    height: 76px;
+    border-radius: 25px;
+    border-color: transparent;
+    background: #E83D4D;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: normal;
+    color: white;
+  }
+
+.main_content_button,
+.main_content_button_speaker{
+  width: 90%;
+  font-size: 30px;
+}
+
 /* Register Main Content */
 .registration_passes_box{
   margin: 10px auto 10px auto;
@@ -5924,6 +6375,57 @@ height: 200px;
 }
 
 @media screen and (max-width: 260px) {
+/* Info Page */
+.learn_more{
+  margin: 0 0 40px 0;
+}
+
+.main_content_boxes{
+  width: 90%;
+  height: auto;
+}
+
+.main_content_box_header{
+  font-size: 20px;
+  top: 0px;
+  margin: 40px 0 20px 0;
+}
+
+.main_content_box_buttons,
+.main_content_box_buttons_speaker {
+  bottom: 0px;
+  width: 100%;
+  height: 76px;
+  padding: 0 40px 0 40px;
+  margin: 20px 0 40px 0;
+  font-size: 18px;
+}
+
+.main_content_box_buttons_speaker{
+  width: 80%;
+  margin: 0px 0 40px 0;
+  padding: 0 auto;
+  font-size: 18px;
+  bottom: 0px;
+}
+
+.main_content_button,
+.main_content_button_speaker{
+  width: 90%;
+  font-size: 20px;
+}
+
+.main_content_button_speaker{
+  margin: 0 auto 40px auto;
+}
+
+.main_content_box_img{
+  width: 70%;
+  height: auto;
+  top: 0px;
+  margin: 60px 0 20px 0;
+}
+
   /* Register Main Content */
   .registration_passes_box{
     margin: 10px auto 10px auto;
@@ -6077,7 +6579,7 @@ height: 200px;
   position: fixed;/* Stay in place */
   z-index: 1;
   padding-top: 100px;
-  left: 0;
+  left: -20px;
   top: -40px;
   width: 100%;
   height: 100%;
@@ -6099,92 +6601,88 @@ height: 200px;
 }
 
 #speakers_modal_content_1{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_2{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_3{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_4{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_5{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_6{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_7{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_8{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_9{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_10{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_11{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
-}
-#speakers_modal_content_12{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_13{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_14{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_15{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_16{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_17{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_18{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 5px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_19{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_20{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_21{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 #speakers_modal_content_22{
-  margin-top: 20px;
-  padding: 20px 0px 20px 0px;
+  margin: 20px auto 0 auto;
+  padding: 40px 20px 40px 20px;
 }
 
   .speakers_modal_content img{
@@ -6282,6 +6780,11 @@ height: 200px;
     font-size: 14px;
   }
 
+/*legal dropdown*/
+  .legal_dropdown_bar h1{
+    font-size: 20px;
+  }
+
 /* Footer*/
 footer{
   background-color: #E83D4D;
@@ -6363,6 +6866,55 @@ footer{
     width: 100%;
     height: 200px;
   }
+}
+
+@media screen and (max-width: 200px){
+  .speakers_modal_content img{
+    margin: 10px 0 10px -8px;
+  }
+  .speakers_modal_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .speakers_hover_on {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #e83d4d;
+  }
+
+    .speakers_hover_on p{
+      font-size: 15px;
+      font-weight: 600;
+      color: white;
+      margin: 0 auto;
+      text-align: center;
+      padding: 25px 0;
+    }
+
+    .speakers_flex_img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+    .speakers_text h1{
+      font-size: 15px;
+      line-height: 16px;
+      margin: 0px;
+    }
+    .speakers_text h2{
+      font-size: 15px;
+      line-height: 16px;
+    }
+    .speakers_text h3{
+      font-size: 12px;
+    }
+    .speakers_text p{
+      font-size: 10px;
+    }
 }
 
 @media print,

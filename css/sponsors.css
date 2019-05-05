@@ -256,25 +256,32 @@ textarea {
      }
 
      #sponsors_modal_content_1{
-       padding-top: 140px;
+       margin-top: 40px;
+       padding-top: 40px;
      }
      #sponsors_modal_content_2{
-       padding-top: 240px;
+       margin-top: 40px;
+       padding-top: 40px;
      }
      #sponsors_modal_content_3{
-       padding-top: 200px;
+       margin-top: 40px;
+       padding-top: 40px;
      }
      #sponsors_modal_content_4{
-       padding-top: 240px;
+       margin-top: 40px;
+       padding-top: 40px;
      }
      #sponsors_modal_content_5{
-       padding-top: 200px;
+       margin-top: 40px;
+       padding-top: 40px;
      }
      #sponsors_modal_content_6{
-       padding-top: 220px;
+       margin-top: 40px;
+       padding-top: 40px;
      }
      #sponsors_modal_content_7{
-       padding-top: 220px;
+       margin-top: 40px;
+       padding-top: 40px;
      }
 
    /* The Close Button */
@@ -1368,6 +1375,37 @@ height: auto;
        }
    }
 
+   @media screen and (max-width: 585px) {
+     #tech_council{
+       width: 275px;
+       height: auto;
+     }
+     #samsung{
+       width: 275px;
+       height: auto;
+     }
+     #deloitte{
+       width: 275px;
+       height: auto;
+     }
+     #harrisburg{
+       width: 275px;
+       height: auto;
+     }
+     #roasted{
+       width: 275px;
+       height: auto;
+     }
+     #phoenix{
+       width: 275px;
+       height: auto;
+     }
+     #pwc{
+       width: 275px;
+       height: auto;
+     }
+   }
+
    @media screen and (max-width: 414px) {
    /* Sponsors*/
    #sponsors_flex_1_fix{
@@ -1462,6 +1500,8 @@ height: auto;
 
      .sponsors_modal_content img{
        margin-top: 30px;
+       width: 75%;
+       height: auto;
      }
 
      .sponsors_modal_content h1{
@@ -1684,6 +1724,8 @@ height: auto;
 
      .sponsors_modal_content img{
        margin-top: 50px;
+       width: 75%;
+       height: auto;
      }
 
      .sponsors_modal_content h1{
@@ -1855,32 +1897,60 @@ height: auto;
      }
 
    #tech_council{
-     width: 200px;
+     width: 80%;
      height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
    }
    #samsung{
-     width: 200px;
+     width: 80%;
      height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
    }
    #deloitte{
-     width: 200px;
+     width: 80%;
      height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
    }
    #harrisburg{
-     width: 200px;
+     width: 80%;
      height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
    }
    #roasted{
-     width: 200px;
+     width: 80%;
      height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
    }
    #phoenix{
-     width: 200px;
+     width: 80%;
      height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
    }
    #pwc{
-     width: 150px;
+     width: 80%;
      height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
    }
 
    /* sponsors modal */
@@ -1890,7 +1960,7 @@ height: auto;
      position: fixed;/* Stay in place */
      z-index: 1;
      padding-top: 100px;
-     left: -10px;
+     left: 0px;
      top: -40px;
      width: 100%;
      height: 100%;
@@ -1910,6 +1980,8 @@ height: auto;
 
      .sponsors_modal_content img{
        margin-top: 20px;
+       width: 75%;
+       height: auto;
      }
 
      .sponsors_modal_content h1{
