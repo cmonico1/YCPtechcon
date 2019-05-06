@@ -26,16 +26,16 @@
     <div class="main_nav">
       <div class="main_nav_text">
         <ul>
-          <li style="float:left"><a href="register.html">Register</a></li>
-          <li style="float:left"><a href="speakers.html">Speakers</a></li>
-          <li style="float:right"><a href="info/info.html">Info</a></li>
-          <li style="float:right"><a href="schedule.html">Schedule</a></li>
+          <li style="float:left"><a href="register.html" title="Register Page">Register</a></li>
+          <li style="float:left"><a href="speakers.html" title="Speakers Page">Speakers</a></li>
+          <li style="float:right"><a href="info/info.html" title="Information Pages">Info</a></li>
+          <li style="float:right" id="schedule_current"><a href="schedule.html" title="Schedule Page">Schedule</a></li>
         </ul>
       </div>
       <div class="main_nav_logo_section">
         <div class="left_bar"></div>
           <div class="main_logo">
-            <a href="../index.html"><img src="../img/devcon_logo.png" width="100%" height="auto" alt="DevCon Logo"></img></a>
+            <a href="../index.html" title="Home Page"><img src="../img/devcon_logo.png" width="100%" height="auto" alt="DevCon Logo"></img></a>
           </div>
         <div class="right_bar"></div>
       </div>
@@ -44,7 +44,7 @@
     <div class="main_nav_phone">
       <div class="logo_menu">
         <div class="main_logo">
-          <a href="../index.html"><img src="../img/devcon_logo.png" width="100%" height="auto" alt="DevCon Logo"></img></a>
+          <a href="../index.html" title="Home Page"><img src="../img/devcon_logo.png" width="100%" height="auto" alt="DevCon Logo"></img></a>
         </div>
         <div class="hamburger_menu">
           <div class="bar1"></div>
@@ -55,19 +55,19 @@
 
       <div class="mobile_nav_text">
         <ul>
-          <li id="register_padding"><a href="register.html">Register</a></li>
+          <li id="register_padding"><a href="register.html" title="Register Page">Register</a></li>
           <li><div class="nav_bar"></div></li>
-          <li><a href="speakers.html">Speakers</a></li>
+          <li><a href="speakers.html" title="Speakers Page">Speakers</a></li>
           <li><div class="nav_bar"></div></li>
-          <li><a href="schedule.html">Schedule</a></li>
+          <li id="schedule_current"><a href="schedule.html" title="Schedule Page">Schedule</a></li>
           <li><div class="nav_bar"></div></li>
-          <li><a href="info/info.html">Info</a></li>
+          <li><a href="info/info.html" title="Information Pages">Info</a></li>
           <li><div class="nav_bar"></div></li>
-            <li id="nav_text_small"><a href="info/sponsors.html">Sponsors</a></li>
+            <li id="nav_text_small"><a href="info/sponsors.html" title="Sponsors Page">Sponsors</a></li>
             <li id="nav_text_small"><div class="nav_bar_2"></div></li>
-            <li id="nav_text_small"><a href="info/getting_here.html">Getting Here</a></li>
+            <li id="nav_text_small"><a href="info/getting_here.html" title="Getting Here Page">Getting Here</a></li>
             <li id="nav_text_small"><div class="nav_bar_2"></div></li>
-            <li id="nav_text_small"><a href="info/legal.html">Legal</a></li>
+            <li id="nav_text_small"><a href="info/legal.html" title="Legal and Conduct Page">Legal</a></li>
         </ul>
       </div>
     </div>
@@ -75,327 +75,318 @@
 
 
 <section class="main_content">
-<div class="table_body">
-<!--Day 1-->
-  <div class="table_day_header"><h1>Day 1</h1></div>
-  <table>
+  <div class="table_body">
+  <!--Day 1-->
+    <table>
+      <tr>
+        <th id="header_top_left_corner">Day 1<br>(Time Slot)</th>
+        <th>Speakers</th>
+        <th>Topic</th>
+        <th>Room Location</th>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>7AM - 8AM</h1></td>
+        <td></td>
+        <td><h2>Registration & Breakfast</h2></td>
+        <td><h2>Lobby</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>8AM - 8:30AM</h1></td>
+        <td><h2>Chuck Russel - Organizer</h2></td>
+        <td><h2>Kickoff Speech</h2></td>
+        <td><h2>Grand Ballroom</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>8:45AM - 9:30AM</h1></td>
+        <td><h2>Dave Alpert</h2></td>
+        <td><h2>Augmented Reality in<br>a Fracture Reality</h2></td>
+        <td><h2>Ballroom A</td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"></td>
+        <td><h2>Leemay Nassery</h2></td>
+        <td><h2>Digital Experiences On-Demand</h2></td>
+        <td><h2>Ballroom B</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"></td>
+        <td><h2>Renaud Visage</h2></td>
+        <td><h2>Ruby On Rails Migration</h2></td>
+        <td><h2>Ballroom c</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>9:45AM - 10:30AM</h1></td>
+        <td><h2>Jeff Beck</h2></td>
+        <td><h2>SmartThings - An Origin Story</h2></td>
+        <td><h2>Ballroom A</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1></h1></td>
+        <td><h2>Romain Guy</h2></td>
+        <td><h2>Beginning Angular 2.0</h2></td>
+        <td><h2>Ballroom B</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1></h1></td>
+        <td><h2>Tricia Katz</h2></td>
+        <td><h2>Continuous Development Pipeline Considerations</h2></td>
+        <td><h2>Ballroom C</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>11:45AM - 1:15 PM</h1></td>
+        <td></td>
+        <td><h2>Lunch</h2></td>
+        <td><h2>Grand Ballroom</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>1:30PM - 2:15 PM</h1></td>
+        <td><h2>E.G Nadhan</h2></td>
+        <td><h2>Linux and IIS</h2></td>
+        <td><h2>Ballroom A</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1></h1></td>
+        <td><h2>Dana White</h2></td>
+        <td><h2>Digital Media Experiences</h2></td>
+        <td><h2>Ballroom B</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1></h1></td>
+        <td><h2>Cal Henderson</h2></td>
+        <td><h2>Meaningful Digital Communication</h2></td>
+        <td><h2>Ballroom C</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>2:30PM - 3:15 PM</h1></td>
+        <td><h2>Melanie Sumner</h2></td>
+        <td><h2>Ember.js vs Electron - A Breakdown</h2></td>
+        <td><h2>Ballroom A</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1></h1></td>
+        <td><h2>Harry Roberts</h2></td>
+        <td><h2>Google Analytics in the age of Privacy</h2></td>
+        <td><h2>Ballroom B</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1></h1></td>
+        <td><h2>Rebecca Fitzhuh</h2></td>
+        <td><h2>Bringing Military Discipline into the Agile Environment</h2></td>
+        <td><h2>Ballroom C</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>3:30PM - 4:15 PM</h1></td>
+        <td><h2>Matt Layman</h2></td>
+        <td><h2>Python Foundations</h2></td>
+        <td><h2>Ballroom A</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1></h1></td>
+        <td><h2>Rohit Basu</h2></td>
+        <td><h2>Online Payments that Don't Suck</h2>
+        <td><h2>Ballroom B</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1></h1></td>
+        <td><h2>Sarah Squire</h2></td>
+        <td><h2>OpenID Foundation Pursuits</h2>
+        <td><h2>Ballroom C</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>4:30PM - End</h1></td>
+        <td id="border_bottom"></td>
+        <td id="border_bottom"><h2>Technology Lounge - Bar and Lounge</h2></td>
+        <td id="border_bottom"><h2>First Two Floors of the Hotel</h2></td>
+      </tr>
+    </table>
+  </div>
+  <div class="table_body">
+    <!--Day 2-->
+    <table>
+      <tr>
+        <th id="header_top_left_corner"> Day 2<br>(Time Slot)</th>
+        <th>Speakers</th>
+        <th>Topic</th>
+        <th>Room Location</th>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>7AM - 8AM</h1></td>
+        <td></td>
+        <td><h2>Registration & Breakfast</h2></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>8AM - 8:30AM</h1></td>
+        <td><h2>Chuck Russel - Organizer</h2></td>
+        <td><h2>Day Highlights</h2></td>
+        <td><h2>Grand Ballroom</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>8:45AM - 9:30AM</h1></td>
+        <td><h2>Sarah Drasner</h2></td>
+        <td><h2>Advanced SCSS</h2></td>
+        <td><h2>Ballroom A</td>
+      </tr>
     <tr>
-      <th id="header_top_left_corner"></th>
-      <th>Lobby</th>
-      <th>Grand Ballroom</th>
-      <th>First Two Floors of the Hotel</th>
-      <th>Ballroom A</th>
-      <th>Ballroom B</th>
-      <th>Ballroom C</th>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>8AM - 8:30AM</h1></td>
-      <td><h2>Registration & Breakfast</h2></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>8:45AM - 9:30AM</h1></td>
-      <td></td>
-      <td><h2>Kickoff Speech</h2>
-          <h3>Chuck Russel - Organizer</h3></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>9:45AM - 10:30AM</h1></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><h2>Augmented Reality in<br>
-          a Fracture Reality</h2>
-          <h3>Dave Alpert</h3></td>
-      <td><h2>Digital Experiences On-Demand</h2>
-          <h3>Leemay Nassery</h3></td>
-      <td><h2>Ruby On Rails Migration</h2>
-          <h3>Renaud Visage</h3></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>10:45AM - 11:30 AM</h1></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><h2>SmartThings - An Origin Story</h2>
-          <h3>Jeff Beck</h3></td>
-      <td><h2>Beginning Angular 2.0</h2>
-          <h3>Romain Guy</h3></td>
-      <td><h2>Continuous DevelopmentPipeline Considerations</h2>
-          <h3>Tricia Katz</h3></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>11:45AM - 1:15 PM</h1></td>
-      <td></td>
-      <td><h2>Lunch</h2></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>1:30PM - 2:15 PM</h1></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><h2>Linux and IIS</h2>
-          <h3>E.G Nadhan</h3></td>
-      <td><h2>Digital Media Experiences</h2>
-          <h3>Dana White</h3></td>
-      <td><h2>Meaningful Digital Communication</h2>
-          <h3>Cal Henderson</h3></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>2:30PM - 3:15 PM</h1></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><h2>Ember.js vs Electron - A Breakdown</h2>
-          <h3>Melanie Sumner</h3></td>
-      <td><h2>Google Analytics in the age of Privacy</h2>
-          <h3>Harry Roberts</h3></td>
-      <td><h2>Brining Military Discipline into the Agile Environment</h2>
-          <h3>Rebecca Fitzhuh</h3></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>3:30PM - 4:15 PM</h1></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><h2>Python Foundations</h2>
-          <h3>Matt Layman</h3></td>
-      <td><h2>Online Payments that Don't Suck</h2>
-          <h3>Rohit Basu</h3></td>
-      <td><h2>OpenID Foundation Pursuits</h2>
-          <h3>Sarah Squire</h3></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>4:30PM - End</h1></td>
-      <td id="border_bottom"></td>
-      <td id="border_bottom"></td>
-      <td id="border_bottom"><h2>Technology Lounge</h2>
-          <h3>Bar and Lounge</h3></td>
-      <td id="border_bottom"></td>
-      <td id="border_bottom"></td>
-      <td id="border_bottom"></td>
-    </tr>
-  </table>
-</div>
-
-<div class="table_body">
-  <!--Day 2-->
-  <div class="table_day_header"><h1>Day 2</h1></div>
-  <table>
-    <tr>
-      <th id="header_top_left_corner"></th>
-      <th>Lobby</th>
-      <th>Grand Ballroom</th>
-      <th>City Island</th>
-      <th>Ballroom A</th>
-      <th>Ballroom B</th>
-      <th>Ballroom C</th>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>7AM - 8AM</h1></td>
-      <td><h2>Registration & Breakfast</h2></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>8AM - 8:30AM</h1></td>
-      <td></td>
-      <td><h2>Day Highlights</h2>
-          <h3>Chuck Russel - Organizer</h3></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>8:45AM - 9:30AM</h1></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><h2>Advanced SCSS</h2>
-          <h3>Sarah Drasner</h3></td>
+      <td id="header_top_left_corner"><h1></h1></td>
+      <td><h2>Michael Albers</h2></td>
       <td><h2>Authentication Systems and Tokens</h2>
-          <h3>Michael Albers</h3></td>
-      <td><h2>Customer Experience at the Gallery</h2>
-          <h3>Ryan King</h3></td>
+      <td><h2>Ballroom B</td>
+    </tr>
+    <tr>
+      <td id="header_top_left_corner"><h1></h1></td>
+      <td><h2>Ryan King</h2></td>
+      <td><h2>Customer Experience at the Gallery</h2></td>
+      <td><h2>Ballroom C</td>
     </tr>
     <tr>
       <td id="header_top_left_corner"><h1>9:45AM - 11:00AM</h1></td>
-      <td></td>
-      <td><h2>Panel Discussion: Venture Capital in Transformative Technology</h2>
-          <h3>Panel Moderator: Allison Lowery</h3>
-          <h3>Panelist: Phil Nash</h3>
-          <h3>Panelist: Harry Roberts</h3>
-          <h3>Panelist: Melanie Sumner</h3>
-          <h3>Panelist: Rohit Basu</h3></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td><h2>Panel Moderator: Allison Lowery</h2><h2>Panelist: Phil Nash</h2><h2>Panelist: Harry Roberts</h2><h2>Panelist: Melanie Sumner</h2><h2>Panelist: Rohit Basu</h2><h2>Sponsor Hall</h2></td>
+      <td><h2>Panel Discussion: Venture Capital in Transformative Technology</h2></td>
+      <td><h2>Grand Ballroom</h2></td>
     </tr>
     <tr>
       <td id="header_top_left_corner"><h1>11:15AM - 12:00PM</h1></td>
-      <td><h2>Sponsor Presentations</h2>
-          <h3>Sponsor Hall</h3></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>12:00PM - 1:15 PM</h1></td>
-      <td></td>
-      <td><h2>Lunch</h2></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>1:30PM - 2:15 PM</h1></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><h2>Modern Fullstack Workflow</h2>
-          <h3>Leemay Nassery</h3></td>
-      <td><h2>Educating the Future of Technology</h2>
-          <h3>Marie Leaf</h3></td>
-      <td><h2>Geo-Services Powering Everything</h2>
-          <h3>Dave Alpert</h3></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>2:30PM - 3:15 PM</h1></td>
-      <td></td>
-      <td><h2>Modern User Interfaces</h2>
-          <h3>Panel Moderator: David Hickthier</h3>
-          <h3>Panelist: Brad Frost</h3>
-          <h3>Panelist Sarah Drasner</h3>
-          <h3>Panelist: Romain Guy</h3></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>4:00PM - 4:30PM</h1></td>
       <td><h2>Sponsor Hall</h2></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>4:30PM - End</h1></td>
-      <td id="border_bottom"></td>
-      <td id="border_bottom"></td>
-      <td id="border_bottom"><h2>Harrisburg Senators</h2>
-          <h3>Ballpark After Parth</h3></td>
-      <td id="border_bottom"></td>
-      <td id="border_bottom"></td>
-      <td id="border_bottom"></td>
-    </tr>
-  </table>
-</div>
-
-<div class="table_body" id="table_body_3">
-  <!--Day 3-->
-  <div class="table_day_header"><h1>Day 3</h1></div>
-  <table>
-    <tr>
-      <th id="header_top_left_corner"></th>
-      <th>Lobby</th>
-      <th>Grand Ballroom</th>
-      <th>Ballroom A</th>
-      <th>Ballroom B</th>
-      <th>Ballroom C</th>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>7AM - 8AM</h1></td>
-      <td><h2>Registration & Breakfast</h2></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>8AM - 8:30AM</h1></td>
-      <td></td>
-      <td><h2>Kick Off Speech</h2>
-          <h3>Chuck Russel - Organizer</h3></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>8:45AM - 9:30AM</h1></td>
-      <td></td>
-      <td></td>
-      <td><h2>eLearning and Content Design</h2>
-          <h3>Elisha Dvorak</h3></td>
-      <td><h2>Scaling a Business Exponentially</h2>
-          <h3>Cal Henderson</h3></td>
-      <td><h2>Authenticaing Security Tokens</h2>
-          <h3>Marie Leaf</h3></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>9:45AM - 11:00AM</h1></td>
-      <td></td>
-      <td></td>
-      <td><h2>VUI integrations in your CX</h2>
-          <h3>Tricia Katz</h3></td>
-      <td><h2>Digital Childhood Frontier</h2>
-          <h3>Matt Layman</h3></td>
-      <td><h2>Headless CMS</h2>
-          <h3>Dana White</h3></td>
-    </tr>
-    <tr>
-      <td id="header_top_left_corner"><h1>11:15AM - 12:00PM</h1></td>
-      <td></td>
-      <td></td>
-      <td><h2>Open Source in Enterprise</h2>
-          <h3>E.G. Nadhan</h3></td>
-      <td><h2>Open API's</h2>
-          <h3>Renuad Visage</h3></td>
-      <td><h2>Data Processing and Synergy</h2>
-          <h3>Ryan King</h3></td>
+      <td><h2>Sponsor Presentations</h2></td>
+      <td><h2>Lobby</h2></td>
     </tr>
     <tr>
       <td id="header_top_left_corner"><h1>12:00PM - 1:15 PM</h1></td>
+      <td></td>
       <td><h2>Lunch</h2></td>
-      <td></td>
-      <td></td>
-      <td></td>
       <td></td>
     </tr>
     <tr>
       <td id="header_top_left_corner"><h1>1:30PM - 2:15 PM</h1></td>
-      <td id="border_bottom"><h2>Final Comments</h2>
-          <h3>Chuck Russel - Organizer</h3></td>
-      <td id="border_bottom"></td>
-      <td id="border_bottom"></td>
-      <td id="border_bottom"></td>
-      <td id="border_bottom"></td>
+      <td><h2>Leemay Nassery</h2></td>
+      <td><h2>Modern Fullstack Workflow</h2></td>
+      <td><h2>Ballroom A</h2></td>
     </tr>
-  </table>
-</div>
-<div class="bottom_button"><a href="speakers.html"><button>See Speakers</button></a></div>
+    <tr>
+      <td id="header_top_left_corner"><h1></h1></td>
+      <td><h2>Educating the Future of Technology</h2>
+      <td><h2>Marie Leaf</h2></td>
+      <td><h2>Ballroom B</h2></td>
+    </tr>
+    <tr>
+      <td id="header_top_left_corner"><h1>1:30PM - 2:15 PM</h1></td>
+      <td> <h2>Dave Alpert</h2></td>
+      <td><h2>Geo-Services Powering Everything</h2>
+      <td><h2>Ballroom C</h2></td>
+    </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>2:30PM - 3:15 PM</h1></td>
+        <td><h2>Panel Moderator: David Hickthier</h2><h2>Panelist: Brad Frost</h2><h2>Panelist Sarah Drasner</h2><h2>Panelist: Romain Guy</h2></td>
+        <td><h2>Modern User Interfaces</h2></td>
+        <td><h2>Grand Ballroom</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>4:00PM - 4:30PM</h1></td>
+        <td><h2>Sponsor Hall</h2></td>
+        <td></td>
+        <td><h2>Lobby</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>4:30PM - On</h1></td>
+        <td id="border_bottom"></td>
+        <td id="border_bottom"><h2>Harrisburg Senators</h2>
+            <h2>Ballpark After Parth</h2></td>
+        <td id="border_bottom"><h2>City Island</h2></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="table_body" id="table_body_3">
+    <!--Day 3-->
+    <table>
+      <tr>
+        <th id="header_top_left_corner"> Day 3<br>(Time Slot)</th>
+        <th>Speakers</th>
+        <th>Topic</th>
+        <th>Room Location</th>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>7AM - 8AM</h1></td>
+        <td></td>
+        <td><h2>Registration & Breakfast</h2></td>
+        <td><h2>Lobby</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>8AM - 8:30AM</h1></td>
+        <td><h2>Chuck Russel - Organizer</h2></td>
+        <td><h2>Kick Off Speech</h2></td>
+        <td><h2>Grand Ballroom</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>8:45AM - 9:30AM</h1></td>
+        <td><h2>Elisha Dvorak</h2></td>
+        <td><h2>eLearning and Content Design</h2></td>
+        <td><h2>Ballroom A</h2></td>
+      </tr>
+        <tr>
+          <td id="header_top_left_corner"><h1></h1></td>
+          <td><h2>Cal Henderson</h2></td>
+          <td><h2>Scaling a Business Exponentially</h2></td>
+          <td><h2>Ballroom B</h2></td>
+        </tr>
+        <tr>
+          <td id="header_top_left_corner"><h1></h1></td>
+          <td><h2>Marie Leaf</h2></td>
+          <td><h2>Authenticaing Security Tokens</h2></td>
+          <td><h2>Ballroom C</h2></td>
+        </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>9:45AM - 11:00AM</h1></td>
+        <td><h2>VUI integrations in your CX</h2></td>
+        <td><h2>Tricia Katz</h2></td>
+        <td><h2>Ballroom A</h2></td>
+      </tr>
+        <tr>
+          <td id="header_top_left_corner"><h1></h1></td>
+          <td><h2>Digital Childhood Frontier</h2>
+          <td><h2>Matt Layman</h2></td>
+          <td><h2>Ballroom B</h2></td>
+        </tr>
+        <tr>
+          <td id="header_top_left_corner"><h1></h1></td>
+          <td><h2>Headless CMS</h2></td>
+          <td><h2>Dana White</h2></td>
+          <td><h2>Ballroom C</h2></td>
+        </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>10:45AM - 11:30AM</h1></td>
+        <td><h2>E.G. Nadhan</h2></td>
+        <td><h2>Open Source in Enterprise</h2></td>
+        <td><h2>Ballroom A</h2></td>
+      </tr>
+        <tr>
+          <td id="header_top_left_corner"><h1></h1></td>
+          <td><h2>Renuad Visage</h2>
+          <td><h2>Open API's</h2></td>
+          <td><h2>Ballroom B</h2></td>
+        </tr>
+        <tr>
+          <td id="header_top_left_corner"><h1></h1></td>
+          <td><h2>Ryan King</h2></td>
+          <td><h2>Data Processing and Synergy</h2></td>
+          <td><h2>Ballroom C</h2></td>
+        </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>12:00PM - 1:15 PM</h1></td>
+        <td></td>
+        <td><h2>Lunch</h2></td>
+        <td><h2>Grand Ballroom</h2></td>
+      </tr>
+      <tr>
+        <td id="header_top_left_corner"><h1>1:30PM - 2:15 PM</h1></td>
+        <td id="border_bottom"><h2>Chuck Russel - Organizer</h2></td>
+        <td id="border_bottom"><h2>Final Comments</h2></td>
+        <td id="border_bottom"><h2>Grand Ballroom</h2></td>
+      </tr>
+    </table>
+  </div>
+  <div class="bottom_button"><a href="speakers.html" title="Speakers Page"><button>See Speakers</button></a></div>
 </section>
 
 <footer>
@@ -403,15 +394,14 @@
     <div class="footer_sitemap">
       <h1>Sitemap</h1>
         <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="info/sponsors.html">Sponsors</a></li>
-          <li><a href="register.html">Register</a></li>
-          <li><a href="info/getting_here.html">Getting Here</a></li>
-          <li><a href="schedule.html">Schedule</a></li>
-          <li><a href="sub_pages/info/FAQ.html">FAQ</a></li>
-          <li><a href="speakers.html">Speakers</a></li>
-          <li><a href="info/legal.html">Legal</a></li>
-          <li><a href="info/info.html">Info</a></li>
+          <li><a href="../index.html" title="Home Page">Home</a></li>
+          <li><a href="info/sponsors.html" title="Sponsors Page">Sponsors</a></li>
+          <li><a href="register.html" title="Register Page">Register</a></li>
+          <li><a href="info/getting_here.html" title="Getting Here Page">Getting Here</a></li>
+          <li id="schedule_current"><a href="schedule.html" title="Schedule Page">Schedule</a></li>
+          <li><a href="speakers.html" title="Speakers Page">Speakers</a></li>
+          <li><a href="info/legal.html" title="Legal and Conduct Page">Legal</a></li>
+          <li><a href="info/info.html" title="Information Pages">Info</a></li>
         </ul>
     </div>
     <div class="footer_contact">
@@ -421,16 +411,16 @@
     </div>
     <div class="social_media">
       <h1>Social</h1>
-      <a href="https://www.facebook.com"><img src="../img/social_icon_facebook.png" width="25px" height="25px" alt="Link to Facebook Page"></img></a>
-      <a href="https://www.twitter.com"><img src="../img/social_icons_twitter.png" width="25px" height="25px" alt="Link to Twitter Page"></img></a>
+      <a href="https://www.facebook.com" title="Link to Facebook Page"><img src="../img/social_icon_facebook.png" width="25px" height="25px" alt="Link to Facebook Page"></img></a>
+      <a href="https://www.twitter.com" title="Link to Twitter Page"><img src="../img/social_icons_twitter.png" width="25px" height="25px" alt="Link to Twitter Page"></img></a>
     </div>
   </div>
 </footer>
 
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="../js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
+  <script>window.jQuery || document.write('<script src="../js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="../js/plugins.js"></script>
   <script src="../js/main.js"></script>
   <script src="../js/modal.js"></script>
 
