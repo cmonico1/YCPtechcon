@@ -1169,6 +1169,50 @@ footer{
     margin-right: 50px;
   }
 
+  #home_current a{
+    text-decoration: line-through;
+  }
+  #register_current a{
+    text-decoration: line-through;
+  }
+  #register_current_mob {
+    text-decoration: line-through;
+  }
+  #schedule_current a{
+    text-decoration: line-through;
+  }
+  #speakers_current a{
+    text-decoration: line-through;
+  }
+  #info_current a{
+    text-decoration: line-through;
+  }
+  #info_sub a{
+    color: #E83D4D;
+  }
+  #info_sub a:hover{
+    color: #E83D4D;
+    text-decoration: line-through;
+  }
+  #sponsors_current a{
+    text-decoration: line-through;
+  }
+  #sponsors_current_mob {
+    text-decoration: line-through;
+  }
+  #getting_current a{
+    text-decoration: line-through;
+  }
+  #getting_current_mob{
+    text-decoration: line-through;
+  }
+  #legal_current a{
+    text-decoration: line-through;
+  }
+  #legal_current_mob {
+    text-decoration: line-through;
+  }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
