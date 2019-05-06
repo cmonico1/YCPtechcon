@@ -1,9 +1,3 @@
-# YCP Tech Conference Project
+# DevCon Website
 
-Web Design 2 semester long responsive web design project. 
-What you'll find in here is a... 
-- HTML
-- CSS
-- JS
-- Associated images and other files
-- For Spring 2019 Web Design 2
+The DevCon site is a semester long responsive Web Design 2 project. The site is built from scratch using HTML, CSS, and jQuery. All assets except for images and body copy were created by myself including the Logo, Hero Image Motion Graphic, and the "Where Is DevCon?" Map. 
